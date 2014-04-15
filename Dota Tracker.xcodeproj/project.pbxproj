@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278D03FE18FDA4EF00444023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D03FD18FDA4EF00444023 /* Foundation.framework */; };
+		278D040018FDA4EF00444023 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D03FF18FDA4EF00444023 /* CoreGraphics.framework */; };
+		278D040218FDA4EF00444023 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D040118FDA4EF00444023 /* UIKit.framework */; };
+		278D040818FDA4EF00444023 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 278D040618FDA4EF00444023 /* InfoPlist.strings */; };
+		278D040A18FDA4EF00444023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D040918FDA4EF00444023 /* main.m */; };
+		278D040E18FDA4EF00444023 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D040D18FDA4EF00444023 /* AppDelegate.m */; };
+		278D041118FDA4EF00444023 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278D040F18FDA4EF00444023 /* Main_iPhone.storyboard */; };
+		278D041418FDA4EF00444023 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278D041218FDA4EF00444023 /* Main_iPad.storyboard */; };
+		278D041718FDA4EF00444023 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D041618FDA4EF00444023 /* ViewController.m */; };
+		278D041918FDA4EF00444023 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278D041818FDA4EF00444023 /* Images.xcassets */; };
+		278D042018FDA4EF00444023 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D041F18FDA4EF00444023 /* XCTest.framework */; };
+		278D042118FDA4EF00444023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D03FD18FDA4EF00444023 /* Foundation.framework */; };
+		278D042218FDA4EF00444023 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D040118FDA4EF00444023 /* UIKit.framework */; };
+		278D042A18FDA4EF00444023 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 278D042818FDA4EF00444023 /* InfoPlist.strings */; };
+		278D042C18FDA4EF00444023 /* Dota_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D042B18FDA4EF00444023 /* Dota_TrackerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		278D042318FDA4EF00444023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278D03F218FDA4EF00444023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 278D03F918FDA4EF00444023;
+			remoteInfo = "Dota Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		278D03FA18FDA4EF00444023 /* Dota Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		278D03FD18FDA4EF00444023 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		278D03FF18FDA4EF00444023 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		278D040118FDA4EF00444023 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		278D040518FDA4EF00444023 /* Dota Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dota Tracker-Info.plist"; sourceTree = "<group>"; };
+		278D040718FDA4EF00444023 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		278D040918FDA4EF00444023 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		278D040B18FDA4EF00444023 /* Dota Tracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dota Tracker-Prefix.pch"; sourceTree = "<group>"; };
+		278D040C18FDA4EF00444023 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		278D040D18FDA4EF00444023 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		278D041018FDA4EF00444023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		278D041318FDA4EF00444023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		278D041518FDA4EF00444023 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		278D041618FDA4EF00444023 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		278D041818FDA4EF00444023 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		278D041E18FDA4EF00444023 /* Dota TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dota TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		278D041F18FDA4EF00444023 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		278D042718FDA4EF00444023 /* Dota TrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dota TrackerTests-Info.plist"; sourceTree = "<group>"; };
+		278D042918FDA4EF00444023 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		278D042B18FDA4EF00444023 /* Dota_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dota_TrackerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		278D03F718FDA4EF00444023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278D040018FDA4EF00444023 /* CoreGraphics.framework in Frameworks */,
+				278D040218FDA4EF00444023 /* UIKit.framework in Frameworks */,
+				278D03FE18FDA4EF00444023 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278D041B18FDA4EF00444023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278D042018FDA4EF00444023 /* XCTest.framework in Frameworks */,
+				278D042218FDA4EF00444023 /* UIKit.framework in Frameworks */,
+				278D042118FDA4EF00444023 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278D03F118FDA4EF00444023 = {
+			isa = PBXGroup;
+			children = (
+				278D040318FDA4EF00444023 /* Dota Tracker */,
+				278D042518FDA4EF00444023 /* Dota TrackerTests */,
+				278D03FC18FDA4EF00444023 /* Frameworks */,
+				278D03FB18FDA4EF00444023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		278D03FB18FDA4EF00444023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278D03FA18FDA4EF00444023 /* Dota Tracker.app */,
+				278D041E18FDA4EF00444023 /* Dota TrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		278D03FC18FDA4EF00444023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				278D03FD18FDA4EF00444023 /* Foundation.framework */,
+				278D03FF18FDA4EF00444023 /* CoreGraphics.framework */,
+				278D040118FDA4EF00444023 /* UIKit.framework */,
+				278D041F18FDA4EF00444023 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		278D040318FDA4EF00444023 /* Dota Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				278D040C18FDA4EF00444023 /* AppDelegate.h */,
+				278D040D18FDA4EF00444023 /* AppDelegate.m */,
+				278D040F18FDA4EF00444023 /* Main_iPhone.storyboard */,
+				278D041218FDA4EF00444023 /* Main_iPad.storyboard */,
+				278D041518FDA4EF00444023 /* ViewController.h */,
+				278D041618FDA4EF00444023 /* ViewController.m */,
+				278D041818FDA4EF00444023 /* Images.xcassets */,
+				278D040418FDA4EF00444023 /* Supporting Files */,
+			);
+			path = "Dota Tracker";
+			sourceTree = "<group>";
+		};
+		278D040418FDA4EF00444023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				278D040518FDA4EF00444023 /* Dota Tracker-Info.plist */,
+				278D040618FDA4EF00444023 /* InfoPlist.strings */,
+				278D040918FDA4EF00444023 /* main.m */,
+				278D040B18FDA4EF00444023 /* Dota Tracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		278D042518FDA4EF00444023 /* Dota TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				278D042B18FDA4EF00444023 /* Dota_TrackerTests.m */,
+				278D042618FDA4EF00444023 /* Supporting Files */,
+			);
+			path = "Dota TrackerTests";
+			sourceTree = "<group>";
+		};
+		278D042618FDA4EF00444023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				278D042718FDA4EF00444023 /* Dota TrackerTests-Info.plist */,
+				278D042818FDA4EF00444023 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		278D03F918FDA4EF00444023 /* Dota Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278D042F18FDA4EF00444023 /* Build configuration list for PBXNativeTarget "Dota Tracker" */;
+			buildPhases = (
+				278D03F618FDA4EF00444023 /* Sources */,
+				278D03F718FDA4EF00444023 /* Frameworks */,
+				278D03F818FDA4EF00444023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dota Tracker";
+			productName = "Dota Tracker";
+			productReference = 278D03FA18FDA4EF00444023 /* Dota Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		278D041D18FDA4EF00444023 /* Dota TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278D043218FDA4EF00444023 /* Build configuration list for PBXNativeTarget "Dota TrackerTests" */;
+			buildPhases = (
+				278D041A18FDA4EF00444023 /* Sources */,
+				278D041B18FDA4EF00444023 /* Frameworks */,
+				278D041C18FDA4EF00444023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				278D042418FDA4EF00444023 /* PBXTargetDependency */,
+			);
+			name = "Dota TrackerTests";
+			productName = "Dota TrackerTests";
+			productReference = 278D041E18FDA4EF00444023 /* Dota TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278D03F218FDA4EF00444023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					278D041D18FDA4EF00444023 = {
+						TestTargetID = 278D03F918FDA4EF00444023;
+					};
+				};
+			};
+			buildConfigurationList = 278D03F518FDA4EF00444023 /* Build configuration list for PBXProject "Dota Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 278D03F118FDA4EF00444023;
+			productRefGroup = 278D03FB18FDA4EF00444023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				278D03F918FDA4EF00444023 /* Dota Tracker */,
+				278D041D18FDA4EF00444023 /* Dota TrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		278D03F818FDA4EF00444023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278D041418FDA4EF00444023 /* Main_iPad.storyboard in Resources */,
+				278D041918FDA4EF00444023 /* Images.xcassets in Resources */,
+				278D041118FDA4EF00444023 /* Main_iPhone.storyboard in Resources */,
+				278D040818FDA4EF00444023 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278D041C18FDA4EF00444023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278D042A18FDA4EF00444023 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278D03F618FDA4EF00444023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278D041718FDA4EF00444023 /* ViewController.m in Sources */,
+				278D040E18FDA4EF00444023 /* AppDelegate.m in Sources */,
+				278D040A18FDA4EF00444023 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278D041A18FDA4EF00444023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278D042C18FDA4EF00444023 /* Dota_TrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		278D042418FDA4EF00444023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 278D03F918FDA4EF00444023 /* Dota Tracker */;
+			targetProxy = 278D042318FDA4EF00444023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		278D040618FDA4EF00444023 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278D040718FDA4EF00444023 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		278D040F18FDA4EF00444023 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278D041018FDA4EF00444023 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		278D041218FDA4EF00444023 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278D041318FDA4EF00444023 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		278D042818FDA4EF00444023 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278D042918FDA4EF00444023 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		278D042D18FDA4EF00444023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		278D042E18FDA4EF00444023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		278D043018FDA4EF00444023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota Tracker/Dota Tracker-Prefix.pch";
+				INFOPLIST_FILE = "Dota Tracker/Dota Tracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		278D043118FDA4EF00444023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota Tracker/Dota Tracker-Prefix.pch";
+				INFOPLIST_FILE = "Dota Tracker/Dota Tracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		278D043318FDA4EF00444023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dota Tracker.app/Dota Tracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota Tracker/Dota Tracker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dota TrackerTests/Dota TrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		278D043418FDA4EF00444023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dota Tracker.app/Dota Tracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota Tracker/Dota Tracker-Prefix.pch";
+				INFOPLIST_FILE = "Dota TrackerTests/Dota TrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278D03F518FDA4EF00444023 /* Build configuration list for PBXProject "Dota Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278D042D18FDA4EF00444023 /* Debug */,
+				278D042E18FDA4EF00444023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278D042F18FDA4EF00444023 /* Build configuration list for PBXNativeTarget "Dota Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278D043018FDA4EF00444023 /* Debug */,
+				278D043118FDA4EF00444023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		278D043218FDA4EF00444023 /* Build configuration list for PBXNativeTarget "Dota TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278D043318FDA4EF00444023 /* Debug */,
+				278D043418FDA4EF00444023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 278D03F218FDA4EF00444023 /* Project object */;
+}
