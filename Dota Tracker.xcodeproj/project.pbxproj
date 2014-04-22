@@ -22,6 +22,46 @@
 		278D042218FDA4EF00444023 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D040118FDA4EF00444023 /* UIKit.framework */; };
 		278D042A18FDA4EF00444023 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 278D042818FDA4EF00444023 /* InfoPlist.strings */; };
 		278D042C18FDA4EF00444023 /* Dota_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D042B18FDA4EF00444023 /* Dota_TrackerTests.m */; };
+		278D428519036792001BDA92 /* Alliance.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426419036792001BDA92 /* Alliance.png */; };
+		278D428619036792001BDA92 /* C9.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426519036792001BDA92 /* C9.png */; };
+		278D428719036792001BDA92 /* CIS.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426619036792001BDA92 /* CIS.png */; };
+		278D428819036792001BDA92 /* CNB.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426719036792001BDA92 /* CNB.png */; };
+		278D428919036792001BDA92 /* DK.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426819036792001BDA92 /* DK.png */; };
+		278D428A19036792001BDA92 /* DT.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426919036792001BDA92 /* DT.png */; };
+		278D428B19036792001BDA92 /* EG.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426A19036792001BDA92 /* EG.png */; };
+		278D428C19036792001BDA92 /* Ehug.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426B19036792001BDA92 /* Ehug.png */; };
+		278D428D19036792001BDA92 /* Empire.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426C19036792001BDA92 /* Empire.png */; };
+		278D428E19036792001BDA92 /* EOT.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426D19036792001BDA92 /* EOT.png */; };
+		278D428F19036792001BDA92 /* Fnatic.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426E19036792001BDA92 /* Fnatic.png */; };
+		278D429019036792001BDA92 /* HGT.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D426F19036792001BDA92 /* HGT.png */; };
+		278D429119036792001BDA92 /* IG.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427019036792001BDA92 /* IG.png */; };
+		278D429219036792001BDA92 /* LGD.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427119036792001BDA92 /* LGD.png */; };
+		278D429319036792001BDA92 /* Liquid.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427219036792001BDA92 /* Liquid.png */; };
+		278D429419036792001BDA92 /* Mineski.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427319036792001BDA92 /* Mineski.png */; };
+		278D429519036792001BDA92 /* Mith.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427419036792001BDA92 /* Mith.png */; };
+		278D429619036792001BDA92 /* MVP.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427519036792001BDA92 /* MVP.png */; };
+		278D429719036792001BDA92 /* MYM.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427619036792001BDA92 /* MYM.png */; };
+		278D429819036792001BDA92 /* NaVi.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427719036792001BDA92 /* NaVi.png */; };
+		278D429919036792001BDA92 /* Neolution.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427819036792001BDA92 /* Neolution.png */; };
+		278D429A19036792001BDA92 /* Newbee.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427919036792001BDA92 /* Newbee.png */; };
+		278D429B19036792001BDA92 /* NEXTkz.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427A19036792001BDA92 /* NEXTkz.png */; };
+		278D429C19036792001BDA92 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427B19036792001BDA92 /* Orange.png */; };
+		278D429D19036792001BDA92 /* PR.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427C19036792001BDA92 /* PR.png */; };
+		278D429E19036792001BDA92 /* Revenge.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427D19036792001BDA92 /* Revenge.png */; };
+		278D429F19036792001BDA92 /* Rox.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427E19036792001BDA92 /* Rox.png */; };
+		278D42A019036792001BDA92 /* Sigma.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D427F19036792001BDA92 /* Sigma.png */; };
+		278D42A119036792001BDA92 /* Titan.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D428019036792001BDA92 /* Titan.png */; };
+		278D42A219036792001BDA92 /* TongFu.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D428119036792001BDA92 /* TongFu.png */; };
+		278D42A319036792001BDA92 /* VG.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D428219036792001BDA92 /* VG.png */; };
+		278D42A419036792001BDA92 /* VP.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D428319036792001BDA92 /* VP.png */; };
+		278D42A519036792001BDA92 /* Zephyr.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D428419036792001BDA92 /* Zephyr.png */; };
+		278D42A819036CD1001BDA92 /* regionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D42A719036CD1001BDA92 /* regionCell.m */; };
+		278D42AC1904E1A4001BDA92 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42A91904E1A4001BDA92 /* Arrow.png */; };
+		278D42AD1904E1A4001BDA92 /* FD.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42AA1904E1A4001BDA92 /* FD.png */; };
+		278D42AE1904E1A4001BDA92 /* Scythe.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42AB1904E1A4001BDA92 /* Scythe.png */; };
+		278D42B11904E4D3001BDA92 /* Relax.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42AF1904E4D3001BDA92 /* Relax.png */; };
+		278D42B21904E4D3001BDA92 /* TeamDog.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42B01904E4D3001BDA92 /* TeamDog.png */; };
+		278E0FE0190255D9009F72F1 /* RegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E0FDE190255D9009F72F1 /* RegionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +95,48 @@
 		278D042718FDA4EF00444023 /* Dota TrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dota TrackerTests-Info.plist"; sourceTree = "<group>"; };
 		278D042918FDA4EF00444023 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		278D042B18FDA4EF00444023 /* Dota_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dota_TrackerTests.m; sourceTree = "<group>"; };
+		278D426419036792001BDA92 /* Alliance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Alliance.png; path = ../Alliance.png; sourceTree = "<group>"; };
+		278D426519036792001BDA92 /* C9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C9.png; path = ../C9.png; sourceTree = "<group>"; };
+		278D426619036792001BDA92 /* CIS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CIS.png; path = ../CIS.png; sourceTree = "<group>"; };
+		278D426719036792001BDA92 /* CNB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CNB.png; path = ../CNB.png; sourceTree = "<group>"; };
+		278D426819036792001BDA92 /* DK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DK.png; path = ../DK.png; sourceTree = "<group>"; };
+		278D426919036792001BDA92 /* DT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DT.png; path = ../DT.png; sourceTree = "<group>"; };
+		278D426A19036792001BDA92 /* EG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EG.png; path = ../EG.png; sourceTree = "<group>"; };
+		278D426B19036792001BDA92 /* Ehug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ehug.png; path = ../Ehug.png; sourceTree = "<group>"; };
+		278D426C19036792001BDA92 /* Empire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Empire.png; path = ../Empire.png; sourceTree = "<group>"; };
+		278D426D19036792001BDA92 /* EOT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EOT.png; path = ../EOT.png; sourceTree = "<group>"; };
+		278D426E19036792001BDA92 /* Fnatic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fnatic.png; path = ../Fnatic.png; sourceTree = "<group>"; };
+		278D426F19036792001BDA92 /* HGT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HGT.png; path = ../HGT.png; sourceTree = "<group>"; };
+		278D427019036792001BDA92 /* IG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IG.png; path = ../IG.png; sourceTree = "<group>"; };
+		278D427119036792001BDA92 /* LGD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LGD.png; path = ../LGD.png; sourceTree = "<group>"; };
+		278D427219036792001BDA92 /* Liquid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Liquid.png; path = ../Liquid.png; sourceTree = "<group>"; };
+		278D427319036792001BDA92 /* Mineski.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mineski.png; path = ../Mineski.png; sourceTree = "<group>"; };
+		278D427419036792001BDA92 /* Mith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mith.png; path = ../Mith.png; sourceTree = "<group>"; };
+		278D427519036792001BDA92 /* MVP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MVP.png; path = ../MVP.png; sourceTree = "<group>"; };
+		278D427619036792001BDA92 /* MYM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MYM.png; path = ../MYM.png; sourceTree = "<group>"; };
+		278D427719036792001BDA92 /* NaVi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NaVi.png; path = ../NaVi.png; sourceTree = "<group>"; };
+		278D427819036792001BDA92 /* Neolution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Neolution.png; path = ../Neolution.png; sourceTree = "<group>"; };
+		278D427919036792001BDA92 /* Newbee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Newbee.png; path = ../Newbee.png; sourceTree = "<group>"; };
+		278D427A19036792001BDA92 /* NEXTkz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NEXTkz.png; path = ../NEXTkz.png; sourceTree = "<group>"; };
+		278D427B19036792001BDA92 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Orange.png; path = ../Orange.png; sourceTree = "<group>"; };
+		278D427C19036792001BDA92 /* PR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PR.png; path = ../PR.png; sourceTree = "<group>"; };
+		278D427D19036792001BDA92 /* Revenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Revenge.png; path = ../Revenge.png; sourceTree = "<group>"; };
+		278D427E19036792001BDA92 /* Rox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rox.png; path = ../Rox.png; sourceTree = "<group>"; };
+		278D427F19036792001BDA92 /* Sigma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sigma.png; path = ../Sigma.png; sourceTree = "<group>"; };
+		278D428019036792001BDA92 /* Titan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Titan.png; path = ../Titan.png; sourceTree = "<group>"; };
+		278D428119036792001BDA92 /* TongFu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TongFu.png; path = ../TongFu.png; sourceTree = "<group>"; };
+		278D428219036792001BDA92 /* VG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VG.png; path = ../VG.png; sourceTree = "<group>"; };
+		278D428319036792001BDA92 /* VP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VP.png; path = ../VP.png; sourceTree = "<group>"; };
+		278D428419036792001BDA92 /* Zephyr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Zephyr.png; path = ../Zephyr.png; sourceTree = "<group>"; };
+		278D42A619036CD1001BDA92 /* regionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = regionCell.h; path = ../regionCell.h; sourceTree = "<group>"; };
+		278D42A719036CD1001BDA92 /* regionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = regionCell.m; path = ../regionCell.m; sourceTree = "<group>"; };
+		278D42A91904E1A4001BDA92 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		278D42AA1904E1A4001BDA92 /* FD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FD.png; sourceTree = "<group>"; };
+		278D42AB1904E1A4001BDA92 /* Scythe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scythe.png; sourceTree = "<group>"; };
+		278D42AF1904E4D3001BDA92 /* Relax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Relax.png; sourceTree = "<group>"; };
+		278D42B01904E4D3001BDA92 /* TeamDog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeamDog.png; sourceTree = "<group>"; };
+		278E0FDD190255D9009F72F1 /* RegionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegionViewController.h; path = ../RegionViewController.h; sourceTree = "<group>"; };
+		278E0FDE190255D9009F72F1 /* RegionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegionViewController.m; path = ../RegionViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +196,52 @@
 		278D040318FDA4EF00444023 /* Dota Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				278D426419036792001BDA92 /* Alliance.png */,
+				278D426519036792001BDA92 /* C9.png */,
+				278D426619036792001BDA92 /* CIS.png */,
+				278D426719036792001BDA92 /* CNB.png */,
+				278D426819036792001BDA92 /* DK.png */,
+				278D426919036792001BDA92 /* DT.png */,
+				278D426A19036792001BDA92 /* EG.png */,
+				278D426B19036792001BDA92 /* Ehug.png */,
+				278D426C19036792001BDA92 /* Empire.png */,
+				278D426D19036792001BDA92 /* EOT.png */,
+				278D426E19036792001BDA92 /* Fnatic.png */,
+				278D426F19036792001BDA92 /* HGT.png */,
+				278D427019036792001BDA92 /* IG.png */,
+				278D427119036792001BDA92 /* LGD.png */,
+				278D427219036792001BDA92 /* Liquid.png */,
+				278D427319036792001BDA92 /* Mineski.png */,
+				278D42AF1904E4D3001BDA92 /* Relax.png */,
+				278D42B01904E4D3001BDA92 /* TeamDog.png */,
+				278D427419036792001BDA92 /* Mith.png */,
+				278D427519036792001BDA92 /* MVP.png */,
+				278D427619036792001BDA92 /* MYM.png */,
+				278D427719036792001BDA92 /* NaVi.png */,
+				278D42A91904E1A4001BDA92 /* Arrow.png */,
+				278D42AA1904E1A4001BDA92 /* FD.png */,
+				278D42AB1904E1A4001BDA92 /* Scythe.png */,
+				278D427819036792001BDA92 /* Neolution.png */,
+				278D427919036792001BDA92 /* Newbee.png */,
+				278D427A19036792001BDA92 /* NEXTkz.png */,
+				278D427B19036792001BDA92 /* Orange.png */,
+				278D427C19036792001BDA92 /* PR.png */,
+				278D427D19036792001BDA92 /* Revenge.png */,
+				278D427E19036792001BDA92 /* Rox.png */,
+				278D427F19036792001BDA92 /* Sigma.png */,
+				278D428019036792001BDA92 /* Titan.png */,
+				278D428119036792001BDA92 /* TongFu.png */,
+				278D428219036792001BDA92 /* VG.png */,
+				278D428319036792001BDA92 /* VP.png */,
+				278D428419036792001BDA92 /* Zephyr.png */,
 				278D040C18FDA4EF00444023 /* AppDelegate.h */,
 				278D040D18FDA4EF00444023 /* AppDelegate.m */,
 				278D040F18FDA4EF00444023 /* Main_iPhone.storyboard */,
 				278D041218FDA4EF00444023 /* Main_iPad.storyboard */,
+				278E0FDD190255D9009F72F1 /* RegionViewController.h */,
+				278E0FDE190255D9009F72F1 /* RegionViewController.m */,
+				278D42A619036CD1001BDA92 /* regionCell.h */,
+				278D42A719036CD1001BDA92 /* regionCell.m */,
 				278D041518FDA4EF00444023 /* ViewController.h */,
 				278D041618FDA4EF00444023 /* ViewController.m */,
 				278D041818FDA4EF00444023 /* Images.xcassets */,
@@ -231,10 +355,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278D42AD1904E1A4001BDA92 /* FD.png in Resources */,
+				278D42A319036792001BDA92 /* VG.png in Resources */,
+				278D429519036792001BDA92 /* Mith.png in Resources */,
+				278D429C19036792001BDA92 /* Orange.png in Resources */,
+				278D428C19036792001BDA92 /* Ehug.png in Resources */,
+				278D42A119036792001BDA92 /* Titan.png in Resources */,
+				278D42AC1904E1A4001BDA92 /* Arrow.png in Resources */,
+				278D42A219036792001BDA92 /* TongFu.png in Resources */,
+				278D429319036792001BDA92 /* Liquid.png in Resources */,
+				278D428919036792001BDA92 /* DK.png in Resources */,
+				278D42A519036792001BDA92 /* Zephyr.png in Resources */,
+				278D428E19036792001BDA92 /* EOT.png in Resources */,
+				278D429D19036792001BDA92 /* PR.png in Resources */,
 				278D041418FDA4EF00444023 /* Main_iPad.storyboard in Resources */,
+				278D428B19036792001BDA92 /* EG.png in Resources */,
+				278D429919036792001BDA92 /* Neolution.png in Resources */,
 				278D041918FDA4EF00444023 /* Images.xcassets in Resources */,
 				278D041118FDA4EF00444023 /* Main_iPhone.storyboard in Resources */,
+				278D42B11904E4D3001BDA92 /* Relax.png in Resources */,
+				278D429819036792001BDA92 /* NaVi.png in Resources */,
+				278D42A019036792001BDA92 /* Sigma.png in Resources */,
+				278D428D19036792001BDA92 /* Empire.png in Resources */,
 				278D040818FDA4EF00444023 /* InfoPlist.strings in Resources */,
+				278D429A19036792001BDA92 /* Newbee.png in Resources */,
+				278D429719036792001BDA92 /* MYM.png in Resources */,
+				278D429419036792001BDA92 /* Mineski.png in Resources */,
+				278D429E19036792001BDA92 /* Revenge.png in Resources */,
+				278D429219036792001BDA92 /* LGD.png in Resources */,
+				278D428A19036792001BDA92 /* DT.png in Resources */,
+				278D428519036792001BDA92 /* Alliance.png in Resources */,
+				278D42AE1904E1A4001BDA92 /* Scythe.png in Resources */,
+				278D428819036792001BDA92 /* CNB.png in Resources */,
+				278D429F19036792001BDA92 /* Rox.png in Resources */,
+				278D429B19036792001BDA92 /* NEXTkz.png in Resources */,
+				278D428619036792001BDA92 /* C9.png in Resources */,
+				278D429619036792001BDA92 /* MVP.png in Resources */,
+				278D42A419036792001BDA92 /* VP.png in Resources */,
+				278D42B21904E4D3001BDA92 /* TeamDog.png in Resources */,
+				278D429119036792001BDA92 /* IG.png in Resources */,
+				278D429019036792001BDA92 /* HGT.png in Resources */,
+				278D428719036792001BDA92 /* CIS.png in Resources */,
+				278D428F19036792001BDA92 /* Fnatic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +415,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278E0FE0190255D9009F72F1 /* RegionViewController.m in Sources */,
 				278D041718FDA4EF00444023 /* ViewController.m in Sources */,
 				278D040E18FDA4EF00444023 /* AppDelegate.m in Sources */,
 				278D040A18FDA4EF00444023 /* main.m in Sources */,
+				278D42A819036CD1001BDA92 /* regionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +554,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dota Tracker/Dota Tracker-Prefix.pch";
 				INFOPLIST_FILE = "Dota Tracker/Dota Tracker-Info.plist";
@@ -403,6 +568,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dota Tracker/Dota Tracker-Prefix.pch";
 				INFOPLIST_FILE = "Dota Tracker/Dota Tracker-Info.plist";
@@ -470,6 +636,7 @@
 				278D043118FDA4EF00444023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		278D043218FDA4EF00444023 /* Build configuration list for PBXNativeTarget "Dota TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +645,7 @@
 				278D043418FDA4EF00444023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
