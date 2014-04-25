@@ -61,7 +61,19 @@
 		278D42AE1904E1A4001BDA92 /* Scythe.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42AB1904E1A4001BDA92 /* Scythe.png */; };
 		278D42B11904E4D3001BDA92 /* Relax.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42AF1904E4D3001BDA92 /* Relax.png */; };
 		278D42B21904E4D3001BDA92 /* TeamDog.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42B01904E4D3001BDA92 /* TeamDog.png */; };
-		278E0FE0190255D9009F72F1 /* RegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E0FDE190255D9009F72F1 /* RegionViewController.m */; };
+		278D42C01908C4A7001BDA92 /* Alliancegray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42B31908C4A7001BDA92 /* Alliancegray.png */; };
+		278D42C11908C4A7001BDA92 /* Arrowgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42B41908C4A7001BDA92 /* Arrowgray.png */; };
+		278D42C21908C4A7001BDA92 /* C9gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42B51908C4A7001BDA92 /* C9gray.png */; };
+		278D42C31908C4A7001BDA92 /* CISgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42B61908C4A7001BDA92 /* CISgray.png */; };
+		278D42C41908C4A7001BDA92 /* CNBgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42B71908C4A7001BDA92 /* CNBgray.png */; };
+		278D42C51908C4A7001BDA92 /* DKgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42B81908C4A7001BDA92 /* DKgray.png */; };
+		278D42C61908C4A7001BDA92 /* DTgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42B91908C4A7001BDA92 /* DTgray.png */; };
+		278D42C71908C4A7001BDA92 /* EGgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42BA1908C4A7001BDA92 /* EGgray.png */; };
+		278D42C81908C4A7001BDA92 /* Ehuggray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42BB1908C4A7001BDA92 /* Ehuggray.png */; };
+		278D42C91908C4A7001BDA92 /* Empiregray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42BC1908C4A7001BDA92 /* Empiregray.png */; };
+		278D42CA1908C4A7001BDA92 /* EOTgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42BD1908C4A7001BDA92 /* EOTgray.png */; };
+		278D42CB1908C4A7001BDA92 /* FDgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42BE1908C4A7001BDA92 /* FDgray.png */; };
+		278D42CC1908C4A7001BDA92 /* Fnaticgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42BF1908C4A7001BDA92 /* Fnaticgray.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,8 +147,19 @@
 		278D42AB1904E1A4001BDA92 /* Scythe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scythe.png; sourceTree = "<group>"; };
 		278D42AF1904E4D3001BDA92 /* Relax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Relax.png; sourceTree = "<group>"; };
 		278D42B01904E4D3001BDA92 /* TeamDog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeamDog.png; sourceTree = "<group>"; };
-		278E0FDD190255D9009F72F1 /* RegionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegionViewController.h; path = ../RegionViewController.h; sourceTree = "<group>"; };
-		278E0FDE190255D9009F72F1 /* RegionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegionViewController.m; path = ../RegionViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		278D42B31908C4A7001BDA92 /* Alliancegray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alliancegray.png; sourceTree = "<group>"; };
+		278D42B41908C4A7001BDA92 /* Arrowgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrowgray.png; sourceTree = "<group>"; };
+		278D42B51908C4A7001BDA92 /* C9gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C9gray.png; sourceTree = "<group>"; };
+		278D42B61908C4A7001BDA92 /* CISgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CISgray.png; sourceTree = "<group>"; };
+		278D42B71908C4A7001BDA92 /* CNBgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CNBgray.png; sourceTree = "<group>"; };
+		278D42B81908C4A7001BDA92 /* DKgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DKgray.png; sourceTree = "<group>"; };
+		278D42B91908C4A7001BDA92 /* DTgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DTgray.png; sourceTree = "<group>"; };
+		278D42BA1908C4A7001BDA92 /* EGgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EGgray.png; sourceTree = "<group>"; };
+		278D42BB1908C4A7001BDA92 /* Ehuggray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ehuggray.png; sourceTree = "<group>"; };
+		278D42BC1908C4A7001BDA92 /* Empiregray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Empiregray.png; sourceTree = "<group>"; };
+		278D42BD1908C4A7001BDA92 /* EOTgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EOTgray.png; sourceTree = "<group>"; };
+		278D42BE1908C4A7001BDA92 /* FDgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FDgray.png; sourceTree = "<group>"; };
+		278D42BF1908C4A7001BDA92 /* Fnaticgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fnaticgray.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +240,19 @@
 				278D427419036792001BDA92 /* Mith.png */,
 				278D427519036792001BDA92 /* MVP.png */,
 				278D427619036792001BDA92 /* MYM.png */,
+				278D42B31908C4A7001BDA92 /* Alliancegray.png */,
+				278D42B41908C4A7001BDA92 /* Arrowgray.png */,
+				278D42B51908C4A7001BDA92 /* C9gray.png */,
+				278D42B61908C4A7001BDA92 /* CISgray.png */,
+				278D42B71908C4A7001BDA92 /* CNBgray.png */,
+				278D42B81908C4A7001BDA92 /* DKgray.png */,
+				278D42B91908C4A7001BDA92 /* DTgray.png */,
+				278D42BA1908C4A7001BDA92 /* EGgray.png */,
+				278D42BB1908C4A7001BDA92 /* Ehuggray.png */,
+				278D42BC1908C4A7001BDA92 /* Empiregray.png */,
+				278D42BD1908C4A7001BDA92 /* EOTgray.png */,
+				278D42BE1908C4A7001BDA92 /* FDgray.png */,
+				278D42BF1908C4A7001BDA92 /* Fnaticgray.png */,
 				278D427719036792001BDA92 /* NaVi.png */,
 				278D42A91904E1A4001BDA92 /* Arrow.png */,
 				278D42AA1904E1A4001BDA92 /* FD.png */,
@@ -238,8 +274,6 @@
 				278D040D18FDA4EF00444023 /* AppDelegate.m */,
 				278D040F18FDA4EF00444023 /* Main_iPhone.storyboard */,
 				278D041218FDA4EF00444023 /* Main_iPad.storyboard */,
-				278E0FDD190255D9009F72F1 /* RegionViewController.h */,
-				278E0FDE190255D9009F72F1 /* RegionViewController.m */,
 				278D42A619036CD1001BDA92 /* regionCell.h */,
 				278D42A719036CD1001BDA92 /* regionCell.m */,
 				278D041518FDA4EF00444023 /* ViewController.h */,
@@ -357,6 +391,7 @@
 			files = (
 				278D42AD1904E1A4001BDA92 /* FD.png in Resources */,
 				278D42A319036792001BDA92 /* VG.png in Resources */,
+				278D42C11908C4A7001BDA92 /* Arrowgray.png in Resources */,
 				278D429519036792001BDA92 /* Mith.png in Resources */,
 				278D429C19036792001BDA92 /* Orange.png in Resources */,
 				278D428C19036792001BDA92 /* Ehug.png in Resources */,
@@ -368,22 +403,29 @@
 				278D42A519036792001BDA92 /* Zephyr.png in Resources */,
 				278D428E19036792001BDA92 /* EOT.png in Resources */,
 				278D429D19036792001BDA92 /* PR.png in Resources */,
+				278D42CB1908C4A7001BDA92 /* FDgray.png in Resources */,
 				278D041418FDA4EF00444023 /* Main_iPad.storyboard in Resources */,
+				278D42C51908C4A7001BDA92 /* DKgray.png in Resources */,
 				278D428B19036792001BDA92 /* EG.png in Resources */,
 				278D429919036792001BDA92 /* Neolution.png in Resources */,
 				278D041918FDA4EF00444023 /* Images.xcassets in Resources */,
 				278D041118FDA4EF00444023 /* Main_iPhone.storyboard in Resources */,
+				278D42CA1908C4A7001BDA92 /* EOTgray.png in Resources */,
 				278D42B11904E4D3001BDA92 /* Relax.png in Resources */,
 				278D429819036792001BDA92 /* NaVi.png in Resources */,
+				278D42C81908C4A7001BDA92 /* Ehuggray.png in Resources */,
 				278D42A019036792001BDA92 /* Sigma.png in Resources */,
+				278D42C01908C4A7001BDA92 /* Alliancegray.png in Resources */,
 				278D428D19036792001BDA92 /* Empire.png in Resources */,
 				278D040818FDA4EF00444023 /* InfoPlist.strings in Resources */,
 				278D429A19036792001BDA92 /* Newbee.png in Resources */,
 				278D429719036792001BDA92 /* MYM.png in Resources */,
+				278D42C21908C4A7001BDA92 /* C9gray.png in Resources */,
 				278D429419036792001BDA92 /* Mineski.png in Resources */,
 				278D429E19036792001BDA92 /* Revenge.png in Resources */,
 				278D429219036792001BDA92 /* LGD.png in Resources */,
 				278D428A19036792001BDA92 /* DT.png in Resources */,
+				278D42C31908C4A7001BDA92 /* CISgray.png in Resources */,
 				278D428519036792001BDA92 /* Alliance.png in Resources */,
 				278D42AE1904E1A4001BDA92 /* Scythe.png in Resources */,
 				278D428819036792001BDA92 /* CNB.png in Resources */,
@@ -391,10 +433,15 @@
 				278D429B19036792001BDA92 /* NEXTkz.png in Resources */,
 				278D428619036792001BDA92 /* C9.png in Resources */,
 				278D429619036792001BDA92 /* MVP.png in Resources */,
+				278D42CC1908C4A7001BDA92 /* Fnaticgray.png in Resources */,
+				278D42C91908C4A7001BDA92 /* Empiregray.png in Resources */,
 				278D42A419036792001BDA92 /* VP.png in Resources */,
+				278D42C71908C4A7001BDA92 /* EGgray.png in Resources */,
+				278D42C41908C4A7001BDA92 /* CNBgray.png in Resources */,
 				278D42B21904E4D3001BDA92 /* TeamDog.png in Resources */,
 				278D429119036792001BDA92 /* IG.png in Resources */,
 				278D429019036792001BDA92 /* HGT.png in Resources */,
+				278D42C61908C4A7001BDA92 /* DTgray.png in Resources */,
 				278D428719036792001BDA92 /* CIS.png in Resources */,
 				278D428F19036792001BDA92 /* Fnatic.png in Resources */,
 			);
@@ -415,7 +462,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				278E0FE0190255D9009F72F1 /* RegionViewController.m in Sources */,
 				278D041718FDA4EF00444023 /* ViewController.m in Sources */,
 				278D040E18FDA4EF00444023 /* AppDelegate.m in Sources */,
 				278D040A18FDA4EF00444023 /* main.m in Sources */,

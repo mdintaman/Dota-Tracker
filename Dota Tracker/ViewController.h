@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController {
+@interface ViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate> {
     
     IBOutlet UISegmentedControl *regionControl;
     
 }
 
+@property (weak, nonatomic) IBOutlet UICollectionView *regionCollectionView;
+
 - (IBAction)regionSelected;
+
 
 @end
