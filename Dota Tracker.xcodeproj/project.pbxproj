@@ -74,6 +74,37 @@
 		278D42CA1908C4A7001BDA92 /* EOTgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42BD1908C4A7001BDA92 /* EOTgray.png */; };
 		278D42CB1908C4A7001BDA92 /* FDgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42BE1908C4A7001BDA92 /* FDgray.png */; };
 		278D42CC1908C4A7001BDA92 /* Fnaticgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42BF1908C4A7001BDA92 /* Fnaticgray.png */; };
+		278D42E6190BA9C7001BDA92 /* HGTgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42CD190BA9C7001BDA92 /* HGTgray.png */; };
+		278D42E7190BA9C7001BDA92 /* IGgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42CE190BA9C7001BDA92 /* IGgray.png */; };
+		278D42E8190BA9C7001BDA92 /* LGDgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42CF190BA9C7001BDA92 /* LGDgray.png */; };
+		278D42E9190BA9C7001BDA92 /* Liquidgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42D0190BA9C7001BDA92 /* Liquidgray.png */; };
+		278D42EA190BA9C7001BDA92 /* Mineskigray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42D1190BA9C7001BDA92 /* Mineskigray.png */; };
+		278D42EB190BA9C7001BDA92 /* Mithgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42D2190BA9C7001BDA92 /* Mithgray.png */; };
+		278D42EC190BA9C7001BDA92 /* MVPgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42D3190BA9C7001BDA92 /* MVPgray.png */; };
+		278D42ED190BA9C7001BDA92 /* MYMgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42D4190BA9C7001BDA92 /* MYMgray.png */; };
+		278D42EE190BA9C7001BDA92 /* NaVigray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42D5190BA9C7001BDA92 /* NaVigray.png */; };
+		278D42EF190BA9C7001BDA92 /* Neolutiongray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42D6190BA9C7001BDA92 /* Neolutiongray.png */; };
+		278D42F0190BA9C7001BDA92 /* Newbeegray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42D7190BA9C7001BDA92 /* Newbeegray.png */; };
+		278D42F1190BA9C7001BDA92 /* NEXTkzgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42D8190BA9C7001BDA92 /* NEXTkzgray.png */; };
+		278D42F2190BA9C7001BDA92 /* Orangegray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42D9190BA9C7001BDA92 /* Orangegray.png */; };
+		278D42F3190BA9C7001BDA92 /* PRgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42DA190BA9C7001BDA92 /* PRgray.png */; };
+		278D42F4190BA9C7001BDA92 /* Relaxgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42DB190BA9C7001BDA92 /* Relaxgray.png */; };
+		278D42F5190BA9C7001BDA92 /* Revengegray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42DC190BA9C7001BDA92 /* Revengegray.png */; };
+		278D42F6190BA9C7001BDA92 /* Roxgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42DD190BA9C7001BDA92 /* Roxgray.png */; };
+		278D42F7190BA9C7001BDA92 /* Scythegray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42DE190BA9C7001BDA92 /* Scythegray.png */; };
+		278D42F8190BA9C7001BDA92 /* Sigmagray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42DF190BA9C7001BDA92 /* Sigmagray.png */; };
+		278D42F9190BA9C7001BDA92 /* TeamDoggray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42E0190BA9C7001BDA92 /* TeamDoggray.png */; };
+		278D42FA190BA9C7001BDA92 /* Titangray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42E1190BA9C7001BDA92 /* Titangray.png */; };
+		278D42FB190BA9C7001BDA92 /* TongFugray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42E2190BA9C7001BDA92 /* TongFugray.png */; };
+		278D42FC190BA9C7001BDA92 /* VGgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42E3190BA9C7001BDA92 /* VGgray.png */; };
+		278D42FD190BA9C7001BDA92 /* VPgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42E4190BA9C7001BDA92 /* VPgray.png */; };
+		278D42FE190BA9C7001BDA92 /* Zephyrgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42E5190BA9C7001BDA92 /* Zephyrgray.png */; };
+		278D4303190CCC9C001BDA92 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D4302190CCC9C001BDA92 /* CoreData.framework */; };
+		278D442A190E25AA001BDA92 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 278D4428190E25AA001BDA92 /* Model.xcdatamodeld */; };
+		278D446D19103015001BDA92 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D446C19103015001BDA92 /* libsqlite3.dylib */; };
+		278D44701911EE74001BDA92 /* teamObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D446F1911EE74001BDA92 /* teamObject.m */; };
+		27A15002191340BA0063E1CA /* butt.sql in Resources */ = {isa = PBXBuildFile; fileRef = 27A15001191340BA0063E1CA /* butt.sql */; };
+		27A1500A191424100063E1CA /* teamObjects.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27A15009191424100063E1CA /* teamObjects.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +191,38 @@
 		278D42BD1908C4A7001BDA92 /* EOTgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EOTgray.png; sourceTree = "<group>"; };
 		278D42BE1908C4A7001BDA92 /* FDgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FDgray.png; sourceTree = "<group>"; };
 		278D42BF1908C4A7001BDA92 /* Fnaticgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fnaticgray.png; sourceTree = "<group>"; };
+		278D42CD190BA9C7001BDA92 /* HGTgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HGTgray.png; sourceTree = "<group>"; };
+		278D42CE190BA9C7001BDA92 /* IGgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IGgray.png; sourceTree = "<group>"; };
+		278D42CF190BA9C7001BDA92 /* LGDgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LGDgray.png; sourceTree = "<group>"; };
+		278D42D0190BA9C7001BDA92 /* Liquidgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liquidgray.png; sourceTree = "<group>"; };
+		278D42D1190BA9C7001BDA92 /* Mineskigray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mineskigray.png; sourceTree = "<group>"; };
+		278D42D2190BA9C7001BDA92 /* Mithgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mithgray.png; sourceTree = "<group>"; };
+		278D42D3190BA9C7001BDA92 /* MVPgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MVPgray.png; sourceTree = "<group>"; };
+		278D42D4190BA9C7001BDA92 /* MYMgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MYMgray.png; sourceTree = "<group>"; };
+		278D42D5190BA9C7001BDA92 /* NaVigray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NaVigray.png; sourceTree = "<group>"; };
+		278D42D6190BA9C7001BDA92 /* Neolutiongray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Neolutiongray.png; sourceTree = "<group>"; };
+		278D42D7190BA9C7001BDA92 /* Newbeegray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Newbeegray.png; sourceTree = "<group>"; };
+		278D42D8190BA9C7001BDA92 /* NEXTkzgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NEXTkzgray.png; sourceTree = "<group>"; };
+		278D42D9190BA9C7001BDA92 /* Orangegray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangegray.png; sourceTree = "<group>"; };
+		278D42DA190BA9C7001BDA92 /* PRgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRgray.png; sourceTree = "<group>"; };
+		278D42DB190BA9C7001BDA92 /* Relaxgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Relaxgray.png; sourceTree = "<group>"; };
+		278D42DC190BA9C7001BDA92 /* Revengegray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Revengegray.png; sourceTree = "<group>"; };
+		278D42DD190BA9C7001BDA92 /* Roxgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Roxgray.png; sourceTree = "<group>"; };
+		278D42DE190BA9C7001BDA92 /* Scythegray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scythegray.png; sourceTree = "<group>"; };
+		278D42DF190BA9C7001BDA92 /* Sigmagray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sigmagray.png; sourceTree = "<group>"; };
+		278D42E0190BA9C7001BDA92 /* TeamDoggray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeamDoggray.png; sourceTree = "<group>"; };
+		278D42E1190BA9C7001BDA92 /* Titangray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Titangray.png; sourceTree = "<group>"; };
+		278D42E2190BA9C7001BDA92 /* TongFugray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TongFugray.png; sourceTree = "<group>"; };
+		278D42E3190BA9C7001BDA92 /* VGgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VGgray.png; sourceTree = "<group>"; };
+		278D42E4190BA9C7001BDA92 /* VPgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VPgray.png; sourceTree = "<group>"; };
+		278D42E5190BA9C7001BDA92 /* Zephyrgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zephyrgray.png; sourceTree = "<group>"; };
+		278D4302190CCC9C001BDA92 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		278D4429190E25AA001BDA92 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		278D446C19103015001BDA92 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		278D446E1911EE74001BDA92 /* teamObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teamObject.h; sourceTree = "<group>"; };
+		278D446F1911EE74001BDA92 /* teamObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = teamObject.m; sourceTree = "<group>"; };
+		27A15001191340BA0063E1CA /* butt.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = butt.sql; sourceTree = "<group>"; };
+		27A15009191424100063E1CA /* teamObjects.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = teamObjects.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +230,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278D446D19103015001BDA92 /* libsqlite3.dylib in Frameworks */,
+				278D4303190CCC9C001BDA92 /* CoreData.framework in Frameworks */,
 				278D040018FDA4EF00444023 /* CoreGraphics.framework in Frameworks */,
 				278D040218FDA4EF00444023 /* UIKit.framework in Frameworks */,
 				278D03FE18FDA4EF00444023 /* Foundation.framework in Frameworks */,
@@ -189,6 +254,8 @@
 		278D03F118FDA4EF00444023 = {
 			isa = PBXGroup;
 			children = (
+				27A15009191424100063E1CA /* teamObjects.sqlite */,
+				27A15001191340BA0063E1CA /* butt.sql */,
 				278D040318FDA4EF00444023 /* Dota Tracker */,
 				278D042518FDA4EF00444023 /* Dota TrackerTests */,
 				278D03FC18FDA4EF00444023 /* Frameworks */,
@@ -208,6 +275,8 @@
 		278D03FC18FDA4EF00444023 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				278D446C19103015001BDA92 /* libsqlite3.dylib */,
+				278D4302190CCC9C001BDA92 /* CoreData.framework */,
 				278D03FD18FDA4EF00444023 /* Foundation.framework */,
 				278D03FF18FDA4EF00444023 /* CoreGraphics.framework */,
 				278D040118FDA4EF00444023 /* UIKit.framework */,
@@ -219,67 +288,95 @@
 		278D040318FDA4EF00444023 /* Dota Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				278D426419036792001BDA92 /* Alliance.png */,
-				278D426519036792001BDA92 /* C9.png */,
-				278D426619036792001BDA92 /* CIS.png */,
-				278D426719036792001BDA92 /* CNB.png */,
-				278D426819036792001BDA92 /* DK.png */,
-				278D426919036792001BDA92 /* DT.png */,
-				278D426A19036792001BDA92 /* EG.png */,
-				278D426B19036792001BDA92 /* Ehug.png */,
-				278D426C19036792001BDA92 /* Empire.png */,
-				278D426D19036792001BDA92 /* EOT.png */,
-				278D426E19036792001BDA92 /* Fnatic.png */,
-				278D426F19036792001BDA92 /* HGT.png */,
-				278D427019036792001BDA92 /* IG.png */,
-				278D427119036792001BDA92 /* LGD.png */,
-				278D427219036792001BDA92 /* Liquid.png */,
-				278D427319036792001BDA92 /* Mineski.png */,
-				278D42AF1904E4D3001BDA92 /* Relax.png */,
-				278D42B01904E4D3001BDA92 /* TeamDog.png */,
-				278D427419036792001BDA92 /* Mith.png */,
-				278D427519036792001BDA92 /* MVP.png */,
-				278D427619036792001BDA92 /* MYM.png */,
-				278D42B31908C4A7001BDA92 /* Alliancegray.png */,
-				278D42B41908C4A7001BDA92 /* Arrowgray.png */,
-				278D42B51908C4A7001BDA92 /* C9gray.png */,
-				278D42B61908C4A7001BDA92 /* CISgray.png */,
-				278D42B71908C4A7001BDA92 /* CNBgray.png */,
-				278D42B81908C4A7001BDA92 /* DKgray.png */,
-				278D42B91908C4A7001BDA92 /* DTgray.png */,
-				278D42BA1908C4A7001BDA92 /* EGgray.png */,
-				278D42BB1908C4A7001BDA92 /* Ehuggray.png */,
-				278D42BC1908C4A7001BDA92 /* Empiregray.png */,
-				278D42BD1908C4A7001BDA92 /* EOTgray.png */,
-				278D42BE1908C4A7001BDA92 /* FDgray.png */,
-				278D42BF1908C4A7001BDA92 /* Fnaticgray.png */,
-				278D427719036792001BDA92 /* NaVi.png */,
-				278D42A91904E1A4001BDA92 /* Arrow.png */,
-				278D42AA1904E1A4001BDA92 /* FD.png */,
-				278D42AB1904E1A4001BDA92 /* Scythe.png */,
-				278D427819036792001BDA92 /* Neolution.png */,
-				278D427919036792001BDA92 /* Newbee.png */,
-				278D427A19036792001BDA92 /* NEXTkz.png */,
-				278D427B19036792001BDA92 /* Orange.png */,
-				278D427C19036792001BDA92 /* PR.png */,
-				278D427D19036792001BDA92 /* Revenge.png */,
-				278D427E19036792001BDA92 /* Rox.png */,
-				278D427F19036792001BDA92 /* Sigma.png */,
-				278D428019036792001BDA92 /* Titan.png */,
-				278D428119036792001BDA92 /* TongFu.png */,
-				278D428219036792001BDA92 /* VG.png */,
-				278D428319036792001BDA92 /* VP.png */,
-				278D428419036792001BDA92 /* Zephyr.png */,
-				278D040C18FDA4EF00444023 /* AppDelegate.h */,
-				278D040D18FDA4EF00444023 /* AppDelegate.m */,
+				278D4428190E25AA001BDA92 /* Model.xcdatamodeld */,
 				278D040F18FDA4EF00444023 /* Main_iPhone.storyboard */,
 				278D041218FDA4EF00444023 /* Main_iPad.storyboard */,
+				278D040C18FDA4EF00444023 /* AppDelegate.h */,
+				278D040D18FDA4EF00444023 /* AppDelegate.m */,
 				278D42A619036CD1001BDA92 /* regionCell.h */,
 				278D42A719036CD1001BDA92 /* regionCell.m */,
+				278D446E1911EE74001BDA92 /* teamObject.h */,
+				278D446F1911EE74001BDA92 /* teamObject.m */,
 				278D041518FDA4EF00444023 /* ViewController.h */,
 				278D041618FDA4EF00444023 /* ViewController.m */,
-				278D041818FDA4EF00444023 /* Images.xcassets */,
 				278D040418FDA4EF00444023 /* Supporting Files */,
+				278D041818FDA4EF00444023 /* Images.xcassets */,
+				278D426419036792001BDA92 /* Alliance.png */,
+				278D42B31908C4A7001BDA92 /* Alliancegray.png */,
+				278D42A91904E1A4001BDA92 /* Arrow.png */,
+				278D42B41908C4A7001BDA92 /* Arrowgray.png */,
+				278D426519036792001BDA92 /* C9.png */,
+				278D42B51908C4A7001BDA92 /* C9gray.png */,
+				278D426619036792001BDA92 /* CIS.png */,
+				278D42B61908C4A7001BDA92 /* CISgray.png */,
+				278D426719036792001BDA92 /* CNB.png */,
+				278D42B71908C4A7001BDA92 /* CNBgray.png */,
+				278D426819036792001BDA92 /* DK.png */,
+				278D42B81908C4A7001BDA92 /* DKgray.png */,
+				278D426919036792001BDA92 /* DT.png */,
+				278D42B91908C4A7001BDA92 /* DTgray.png */,
+				278D426A19036792001BDA92 /* EG.png */,
+				278D42BA1908C4A7001BDA92 /* EGgray.png */,
+				278D426B19036792001BDA92 /* Ehug.png */,
+				278D42BB1908C4A7001BDA92 /* Ehuggray.png */,
+				278D426C19036792001BDA92 /* Empire.png */,
+				278D42BC1908C4A7001BDA92 /* Empiregray.png */,
+				278D426D19036792001BDA92 /* EOT.png */,
+				278D42BD1908C4A7001BDA92 /* EOTgray.png */,
+				278D42AA1904E1A4001BDA92 /* FD.png */,
+				278D42BE1908C4A7001BDA92 /* FDgray.png */,
+				278D426E19036792001BDA92 /* Fnatic.png */,
+				278D42BF1908C4A7001BDA92 /* Fnaticgray.png */,
+				278D426F19036792001BDA92 /* HGT.png */,
+				278D42CD190BA9C7001BDA92 /* HGTgray.png */,
+				278D427019036792001BDA92 /* IG.png */,
+				278D42CE190BA9C7001BDA92 /* IGgray.png */,
+				278D427119036792001BDA92 /* LGD.png */,
+				278D42CF190BA9C7001BDA92 /* LGDgray.png */,
+				278D427219036792001BDA92 /* Liquid.png */,
+				278D42D0190BA9C7001BDA92 /* Liquidgray.png */,
+				278D427319036792001BDA92 /* Mineski.png */,
+				278D42D1190BA9C7001BDA92 /* Mineskigray.png */,
+				278D427419036792001BDA92 /* Mith.png */,
+				278D42D2190BA9C7001BDA92 /* Mithgray.png */,
+				278D427519036792001BDA92 /* MVP.png */,
+				278D42D3190BA9C7001BDA92 /* MVPgray.png */,
+				278D427619036792001BDA92 /* MYM.png */,
+				278D42D4190BA9C7001BDA92 /* MYMgray.png */,
+				278D427719036792001BDA92 /* NaVi.png */,
+				278D42D5190BA9C7001BDA92 /* NaVigray.png */,
+				278D427819036792001BDA92 /* Neolution.png */,
+				278D42D6190BA9C7001BDA92 /* Neolutiongray.png */,
+				278D427919036792001BDA92 /* Newbee.png */,
+				278D42D7190BA9C7001BDA92 /* Newbeegray.png */,
+				278D427A19036792001BDA92 /* NEXTkz.png */,
+				278D42D8190BA9C7001BDA92 /* NEXTkzgray.png */,
+				278D427B19036792001BDA92 /* Orange.png */,
+				278D42D9190BA9C7001BDA92 /* Orangegray.png */,
+				278D427C19036792001BDA92 /* PR.png */,
+				278D42DA190BA9C7001BDA92 /* PRgray.png */,
+				278D42AF1904E4D3001BDA92 /* Relax.png */,
+				278D42DB190BA9C7001BDA92 /* Relaxgray.png */,
+				278D427D19036792001BDA92 /* Revenge.png */,
+				278D42DC190BA9C7001BDA92 /* Revengegray.png */,
+				278D427E19036792001BDA92 /* Rox.png */,
+				278D42DD190BA9C7001BDA92 /* Roxgray.png */,
+				278D42AB1904E1A4001BDA92 /* Scythe.png */,
+				278D42DE190BA9C7001BDA92 /* Scythegray.png */,
+				278D427F19036792001BDA92 /* Sigma.png */,
+				278D42DF190BA9C7001BDA92 /* Sigmagray.png */,
+				278D42B01904E4D3001BDA92 /* TeamDog.png */,
+				278D42E0190BA9C7001BDA92 /* TeamDoggray.png */,
+				278D428019036792001BDA92 /* Titan.png */,
+				278D42E1190BA9C7001BDA92 /* Titangray.png */,
+				278D428119036792001BDA92 /* TongFu.png */,
+				278D42E2190BA9C7001BDA92 /* TongFugray.png */,
+				278D428219036792001BDA92 /* VG.png */,
+				278D42E3190BA9C7001BDA92 /* VGgray.png */,
+				278D428319036792001BDA92 /* VP.png */,
+				278D42E4190BA9C7001BDA92 /* VPgray.png */,
+				278D428419036792001BDA92 /* Zephyr.png */,
+				278D42E5190BA9C7001BDA92 /* Zephyrgray.png */,
 			);
 			path = "Dota Tracker";
 			sourceTree = "<group>";
@@ -389,14 +486,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A1500A191424100063E1CA /* teamObjects.sqlite in Resources */,
+				27A15002191340BA0063E1CA /* butt.sql in Resources */,
 				278D42AD1904E1A4001BDA92 /* FD.png in Resources */,
 				278D42A319036792001BDA92 /* VG.png in Resources */,
 				278D42C11908C4A7001BDA92 /* Arrowgray.png in Resources */,
 				278D429519036792001BDA92 /* Mith.png in Resources */,
 				278D429C19036792001BDA92 /* Orange.png in Resources */,
 				278D428C19036792001BDA92 /* Ehug.png in Resources */,
+				278D42E8190BA9C7001BDA92 /* LGDgray.png in Resources */,
+				278D42E9190BA9C7001BDA92 /* Liquidgray.png in Resources */,
 				278D42A119036792001BDA92 /* Titan.png in Resources */,
 				278D42AC1904E1A4001BDA92 /* Arrow.png in Resources */,
+				278D42EF190BA9C7001BDA92 /* Neolutiongray.png in Resources */,
 				278D42A219036792001BDA92 /* TongFu.png in Resources */,
 				278D429319036792001BDA92 /* Liquid.png in Resources */,
 				278D428919036792001BDA92 /* DK.png in Resources */,
@@ -405,20 +507,33 @@
 				278D429D19036792001BDA92 /* PR.png in Resources */,
 				278D42CB1908C4A7001BDA92 /* FDgray.png in Resources */,
 				278D041418FDA4EF00444023 /* Main_iPad.storyboard in Resources */,
+				278D42FB190BA9C7001BDA92 /* TongFugray.png in Resources */,
+				278D42FA190BA9C7001BDA92 /* Titangray.png in Resources */,
 				278D42C51908C4A7001BDA92 /* DKgray.png in Resources */,
+				278D42EB190BA9C7001BDA92 /* Mithgray.png in Resources */,
 				278D428B19036792001BDA92 /* EG.png in Resources */,
 				278D429919036792001BDA92 /* Neolution.png in Resources */,
+				278D42F3190BA9C7001BDA92 /* PRgray.png in Resources */,
+				278D42EA190BA9C7001BDA92 /* Mineskigray.png in Resources */,
 				278D041918FDA4EF00444023 /* Images.xcassets in Resources */,
 				278D041118FDA4EF00444023 /* Main_iPhone.storyboard in Resources */,
 				278D42CA1908C4A7001BDA92 /* EOTgray.png in Resources */,
 				278D42B11904E4D3001BDA92 /* Relax.png in Resources */,
+				278D42FC190BA9C7001BDA92 /* VGgray.png in Resources */,
+				278D42ED190BA9C7001BDA92 /* MYMgray.png in Resources */,
 				278D429819036792001BDA92 /* NaVi.png in Resources */,
+				278D42EC190BA9C7001BDA92 /* MVPgray.png in Resources */,
+				278D42F5190BA9C7001BDA92 /* Revengegray.png in Resources */,
 				278D42C81908C4A7001BDA92 /* Ehuggray.png in Resources */,
 				278D42A019036792001BDA92 /* Sigma.png in Resources */,
+				278D42EE190BA9C7001BDA92 /* NaVigray.png in Resources */,
 				278D42C01908C4A7001BDA92 /* Alliancegray.png in Resources */,
 				278D428D19036792001BDA92 /* Empire.png in Resources */,
+				278D42F8190BA9C7001BDA92 /* Sigmagray.png in Resources */,
 				278D040818FDA4EF00444023 /* InfoPlist.strings in Resources */,
+				278D42F9190BA9C7001BDA92 /* TeamDoggray.png in Resources */,
 				278D429A19036792001BDA92 /* Newbee.png in Resources */,
+				278D42F4190BA9C7001BDA92 /* Relaxgray.png in Resources */,
 				278D429719036792001BDA92 /* MYM.png in Resources */,
 				278D42C21908C4A7001BDA92 /* C9gray.png in Resources */,
 				278D429419036792001BDA92 /* Mineski.png in Resources */,
@@ -427,20 +542,29 @@
 				278D428A19036792001BDA92 /* DT.png in Resources */,
 				278D42C31908C4A7001BDA92 /* CISgray.png in Resources */,
 				278D428519036792001BDA92 /* Alliance.png in Resources */,
+				278D42FE190BA9C7001BDA92 /* Zephyrgray.png in Resources */,
 				278D42AE1904E1A4001BDA92 /* Scythe.png in Resources */,
+				278D42F6190BA9C7001BDA92 /* Roxgray.png in Resources */,
+				278D42E7190BA9C7001BDA92 /* IGgray.png in Resources */,
+				278D42F7190BA9C7001BDA92 /* Scythegray.png in Resources */,
 				278D428819036792001BDA92 /* CNB.png in Resources */,
 				278D429F19036792001BDA92 /* Rox.png in Resources */,
 				278D429B19036792001BDA92 /* NEXTkz.png in Resources */,
+				278D42F1190BA9C7001BDA92 /* NEXTkzgray.png in Resources */,
+				278D42F2190BA9C7001BDA92 /* Orangegray.png in Resources */,
 				278D428619036792001BDA92 /* C9.png in Resources */,
 				278D429619036792001BDA92 /* MVP.png in Resources */,
 				278D42CC1908C4A7001BDA92 /* Fnaticgray.png in Resources */,
 				278D42C91908C4A7001BDA92 /* Empiregray.png in Resources */,
 				278D42A419036792001BDA92 /* VP.png in Resources */,
+				278D42F0190BA9C7001BDA92 /* Newbeegray.png in Resources */,
 				278D42C71908C4A7001BDA92 /* EGgray.png in Resources */,
+				278D42FD190BA9C7001BDA92 /* VPgray.png in Resources */,
 				278D42C41908C4A7001BDA92 /* CNBgray.png in Resources */,
 				278D42B21904E4D3001BDA92 /* TeamDog.png in Resources */,
 				278D429119036792001BDA92 /* IG.png in Resources */,
 				278D429019036792001BDA92 /* HGT.png in Resources */,
+				278D42E6190BA9C7001BDA92 /* HGTgray.png in Resources */,
 				278D42C61908C4A7001BDA92 /* DTgray.png in Resources */,
 				278D428719036792001BDA92 /* CIS.png in Resources */,
 				278D428F19036792001BDA92 /* Fnatic.png in Resources */,
@@ -463,7 +587,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				278D041718FDA4EF00444023 /* ViewController.m in Sources */,
+				278D44701911EE74001BDA92 /* teamObject.m in Sources */,
 				278D040E18FDA4EF00444023 /* AppDelegate.m in Sources */,
+				278D442A190E25AA001BDA92 /* Model.xcdatamodeld in Sources */,
 				278D040A18FDA4EF00444023 /* main.m in Sources */,
 				278D42A819036CD1001BDA92 /* regionCell.m in Sources */,
 			);
@@ -694,6 +820,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		278D4428190E25AA001BDA92 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				278D4429190E25AA001BDA92 /* Model.xcdatamodel */,
+			);
+			currentVersion = 278D4429190E25AA001BDA92 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 278D03F218FDA4EF00444023 /* Project object */;
 }

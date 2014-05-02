@@ -10,6 +10,15 @@
 
 @implementation regionCell
 
+- (IBAction)teamSelected {
+    if (_regionIcon.selected == YES) {
+        _regionIcon.selected = NO;
+    }
+    else {
+        _regionIcon.selected = YES;
+    }
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

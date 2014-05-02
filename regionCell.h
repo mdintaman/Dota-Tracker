@@ -12,4 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *regionIcon;
 
+- (IBAction)teamSelected;
+
 @end
