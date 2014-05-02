@@ -103,8 +103,7 @@
 		278D442A190E25AA001BDA92 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 278D4428190E25AA001BDA92 /* Model.xcdatamodeld */; };
 		278D446D19103015001BDA92 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D446C19103015001BDA92 /* libsqlite3.dylib */; };
 		278D44701911EE74001BDA92 /* teamObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D446F1911EE74001BDA92 /* teamObject.m */; };
-		27A15002191340BA0063E1CA /* butt.sql in Resources */ = {isa = PBXBuildFile; fileRef = 27A15001191340BA0063E1CA /* butt.sql */; };
-		27A1500E19143F5B0063E1CA /* teamObjects.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27A1500D19143F5B0063E1CA /* teamObjects.sqlite */; };
+		27A15010191442A10063E1CA /* teamObjects.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27A1500F191442A10063E1CA /* teamObjects.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,8 +220,7 @@
 		278D446C19103015001BDA92 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		278D446E1911EE74001BDA92 /* teamObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teamObject.h; sourceTree = "<group>"; };
 		278D446F1911EE74001BDA92 /* teamObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = teamObject.m; sourceTree = "<group>"; };
-		27A15001191340BA0063E1CA /* butt.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = butt.sql; sourceTree = "<group>"; };
-		27A1500D19143F5B0063E1CA /* teamObjects.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = teamObjects.sqlite; sourceTree = "<group>"; };
+		27A1500F191442A10063E1CA /* teamObjects.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = teamObjects.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,8 +252,7 @@
 		278D03F118FDA4EF00444023 = {
 			isa = PBXGroup;
 			children = (
-				27A1500D19143F5B0063E1CA /* teamObjects.sqlite */,
-				27A15001191340BA0063E1CA /* butt.sql */,
+				27A1500F191442A10063E1CA /* teamObjects.sqlite */,
 				278D040318FDA4EF00444023 /* Dota Tracker */,
 				278D042518FDA4EF00444023 /* Dota TrackerTests */,
 				278D03FC18FDA4EF00444023 /* Frameworks */,
@@ -486,8 +483,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A1500E19143F5B0063E1CA /* teamObjects.sqlite in Resources */,
-				27A15002191340BA0063E1CA /* butt.sql in Resources */,
+				27A15010191442A10063E1CA /* teamObjects.sqlite in Resources */,
 				278D42AD1904E1A4001BDA92 /* FD.png in Resources */,
 				278D42A319036792001BDA92 /* VG.png in Resources */,
 				278D42C11908C4A7001BDA92 /* Arrowgray.png in Resources */,
