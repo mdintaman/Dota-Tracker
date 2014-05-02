@@ -13,17 +13,17 @@
     NSString *name;
     NSString *imageSelected;
     NSString *imageNotSelected;
-    NSInteger *selected;
-    NSInteger *region;
-    NSInteger *regionRank;
+    NSInteger selected;
+    NSInteger region;
+    NSInteger regionRank;
 }
 
 @property (nonatomic, retain) NSString *name;;
 @property (nonatomic, retain) NSString *imageSelected;
 @property (nonatomic, retain) NSString *imageNotSelected;
-@property (nonatomic, assign) NSInteger *selected;
-@property (nonatomic, assign) NSInteger *region;
-@property (nonatomic, assign) NSInteger *regionRank;
+@property (nonatomic, assign) NSInteger selected;
+@property (nonatomic, assign) NSInteger region;
+@property (nonatomic, assign) NSInteger regionRank;
 
 -(id)initWithName:(NSString *)n imageSelected:(NSString *)is imageNotSelected:(NSString *)ins selected:(NSInteger *)s region:(NSInteger *)r regionRank:(NSInteger *)rr;
 

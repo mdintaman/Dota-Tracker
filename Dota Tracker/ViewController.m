@@ -15,17 +15,11 @@
 @interface ViewController () {
     
     NSArray *arrayOfChinaRegion;
-    NSArray *arrayOfSEARegionIcons;
-    NSArray *arrayOfEURegionIcons;
-    NSArray *arrayOfNARegionIcons;
-    NSArray *arrayOfKoreaRegionIcons;
+    NSArray *arrayOfSEARegion;
+    NSArray *arrayOfEURegion;
+    NSArray *arrayOfNARegion;
+    NSArray *arrayOfKoreaRegion;
     NSArray *arrayOfIcons;
-    NSArray *arrayOfGraySEARegionIcons;
-    NSArray *arrayOfGrayEURegionIcons;
-    NSArray *arrayOfGrayNARegionIcons;
-    NSArray *arrayOfGrayKoreaRegionIcons;
-    NSArray *arrayOfGrayIcons;
-
 }
 @property (nonatomic, strong)NSManagedObjectContext *managedObjectContext;
 
@@ -40,23 +34,19 @@
     }
     
     if(regionControl.selectedSegmentIndex == 1) {
-        arrayOfIcons = arrayOfSEARegionIcons;
-        arrayOfGrayIcons = arrayOfGraySEARegionIcons;
+        arrayOfIcons = arrayOfSEARegion;
     }
     
     if(regionControl.selectedSegmentIndex == 2) {
-        arrayOfIcons = arrayOfEURegionIcons;
-        arrayOfGrayIcons = arrayOfGrayEURegionIcons;
+        arrayOfIcons = arrayOfEURegion;
     }
     
     if(regionControl.selectedSegmentIndex == 3) {
-        arrayOfIcons = arrayOfNARegionIcons;
-        arrayOfGrayIcons = arrayOfGrayNARegionIcons;
+        arrayOfIcons = arrayOfNARegion;
     }
     
     if(regionControl.selectedSegmentIndex == 4) {
-        arrayOfIcons = arrayOfKoreaRegionIcons;
-        arrayOfGrayIcons = arrayOfGrayKoreaRegionIcons;
+        arrayOfIcons = arrayOfKoreaRegion;
     }
 
     [self.regionCollectionView reloadData];
@@ -76,28 +66,21 @@
     
     AppDelegate *dbDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     
-    NSInteger testint = 1;
-    NSLog(@"SELF.region == %d", testint);
-    
-    NSPredicate *chinaPredicate = [NSPredicate predicateWithFormat:@"SELF.name beginswith[c] 'M' "];
+    NSPredicate *chinaPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 1 "];
+    NSPredicate *seaPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 2 "];
+    NSPredicate *euPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 3 "];
+    NSPredicate *naPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 4 "];
+    NSPredicate *koreaPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 5 "];
     
     arrayOfChinaRegion = [dbDelegate.teams filteredArrayUsingPredicate:chinaPredicate];
     
-    arrayOfGraySEARegionIcons = dbDelegate.teams;
+    arrayOfSEARegion = [dbDelegate.teams filteredArrayUsingPredicate:seaPredicate];
     
-    arrayOfSEARegionIcons = [[NSArray alloc] initWithObjects:@"Titan.PNG", @"Scythe.PNG", @"Arrow.PNG", @"Orange.PNG", @"Mineski.PNG", @"FD.PNG", @"Mith.PNG", nil];
+    arrayOfEURegion = [dbDelegate.teams filteredArrayUsingPredicate:euPredicate];
     
-    arrayOfGrayEURegionIcons = [[NSArray alloc] initWithObjects:@"Empiregray.PNG", @"NaVigray.PNG", @"Fnaticgray.PNG", @"Alliancegray.PNG", @"TeamDoggray.PNG", @"Roxgray.PNG", @"PRgray.PNG", @"Sigmagray.PNG", @"NEXTkzgray.PNG", @"Relaxgray.PNG", @"VPgray.PNG", @"MYMgray.PNG", nil];
+    arrayOfNARegion = [dbDelegate.teams filteredArrayUsingPredicate:naPredicate];
     
-    arrayOfEURegionIcons = [[NSArray alloc] initWithObjects:@"Empire.PNG", @"NaVi.PNG", @"Fnatic.PNG", @"Alliance.PNG", @"TeamDog.PNG", @"Rox.PNG", @"PR.PNG", @"Sigma.PNG", @"NEXTkz.PNG", @"Relax.PNG", @"VP.PNG", @"MYM.PNG", nil];
-    
-    arrayOfGrayNARegionIcons = [[NSArray alloc] initWithObjects:@"EGgray.PNG", @"C9gray.PNG", @"Liquidgray.PNG", @"Revengegray.PNG", @"Ehuggray.PNG", @"CNBgray.PNG", nil];
-    
-    arrayOfNARegionIcons = [[NSArray alloc] initWithObjects:@"EG.PNG", @"C9.PNG", @"Liquid.PNG", @"Revenge.PNG", @"Ehug.PNG", @"CNB.PNG", nil];
-    
-    arrayOfGrayKoreaRegionIcons = [[NSArray alloc] initWithObjects:@"Zephyrgray.PNG", @"MVPgray.PNG", @"EOTgray.PNG", nil];
-    
-    arrayOfKoreaRegionIcons = [[NSArray alloc] initWithObjects:@"Zephyr.PNG", @"MVP.PNG", @"EOT.PNG", nil];
+    arrayOfKoreaRegion = [dbDelegate.teams filteredArrayUsingPredicate:koreaPredicate];
     
     arrayOfIcons = arrayOfChinaRegion;
 

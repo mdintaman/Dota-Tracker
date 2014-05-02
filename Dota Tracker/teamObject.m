@@ -15,9 +15,9 @@
     self.name = n;
     self.imageSelected = is;
     self.imageNotSelected = ins;
-    self.selected = s;
-    self.region = r;
-    self.regionRank = rr;
+    self.selected = *(s);
+    self.region = *(r);
+    self.regionRank = *(rr);
     return self;
 }
 
