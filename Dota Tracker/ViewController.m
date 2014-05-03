@@ -13,12 +13,6 @@
 
 
 @interface ViewController () {
-    
-    NSArray *arrayOfChinaRegion;
-    NSArray *arrayOfSEARegion;
-    NSArray *arrayOfEURegion;
-    NSArray *arrayOfNARegion;
-    NSArray *arrayOfKoreaRegion;
     NSArray *arrayOfIcons;
 }
 @property (nonatomic, strong)NSManagedObjectContext *managedObjectContext;
@@ -29,24 +23,34 @@
 
 - (IBAction)regionSelected {
     
+    AppDelegate *dbDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    [dbDelegate readTeamsFromDatabase];
+    
+    NSPredicate *chinaPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 1 "];
+    NSPredicate *seaPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 2 "];
+    NSPredicate *euPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 3 "];
+    NSPredicate *naPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 4 "];
+    NSPredicate *koreaPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 5 "];
+    
     if(regionControl.selectedSegmentIndex == 0) {
-        arrayOfIcons = arrayOfChinaRegion;
+        arrayOfIcons = [dbDelegate.teams filteredArrayUsingPredicate:chinaPredicate];
     }
     
     if(regionControl.selectedSegmentIndex == 1) {
-        arrayOfIcons = arrayOfSEARegion;
+        arrayOfIcons = [dbDelegate.teams filteredArrayUsingPredicate:seaPredicate];
     }
     
     if(regionControl.selectedSegmentIndex == 2) {
-        arrayOfIcons = arrayOfEURegion;
+        arrayOfIcons = [dbDelegate.teams filteredArrayUsingPredicate:euPredicate];
     }
     
     if(regionControl.selectedSegmentIndex == 3) {
-        arrayOfIcons = arrayOfNARegion;
+        arrayOfIcons = [dbDelegate.teams filteredArrayUsingPredicate:naPredicate];
     }
     
     if(regionControl.selectedSegmentIndex == 4) {
-        arrayOfIcons = arrayOfKoreaRegion;
+        arrayOfIcons = [dbDelegate.teams filteredArrayUsingPredicate:koreaPredicate];
     }
 
     [self.regionCollectionView reloadData];
@@ -67,22 +71,8 @@
     AppDelegate *dbDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     
     NSPredicate *chinaPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 1 "];
-    NSPredicate *seaPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 2 "];
-    NSPredicate *euPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 3 "];
-    NSPredicate *naPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 4 "];
-    NSPredicate *koreaPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 5 "];
     
-    arrayOfChinaRegion = [dbDelegate.teams filteredArrayUsingPredicate:chinaPredicate];
-    
-    arrayOfSEARegion = [dbDelegate.teams filteredArrayUsingPredicate:seaPredicate];
-    
-    arrayOfEURegion = [dbDelegate.teams filteredArrayUsingPredicate:euPredicate];
-    
-    arrayOfNARegion = [dbDelegate.teams filteredArrayUsingPredicate:naPredicate];
-    
-    arrayOfKoreaRegion = [dbDelegate.teams filteredArrayUsingPredicate:koreaPredicate];
-    
-    arrayOfIcons = arrayOfChinaRegion;
+    arrayOfIcons = [dbDelegate.teams filteredArrayUsingPredicate:chinaPredicate];
 
 }
 
@@ -95,8 +85,6 @@
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    int butt = [arrayOfIcons count];
-    NSLog(@"%i", butt);
     return [arrayOfIcons count];
 }
 
@@ -107,10 +95,19 @@
     static NSString *CellIdentifier = @"cell";
     
     regionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CellIdentifier forIndexPath:indexPath];
-    
+
     [[cell regionIcon] setImage:[UIImage imageNamed:team.imageNotSelected] forState:UIControlStateNormal];
     [[cell regionIcon] setImage:[UIImage imageNamed:team.imageSelected] forState:UIControlStateSelected];
+    [[cell regionIcon] setTitle:[NSString stringWithFormat:@"%@", team.name] forState:UIControlStateNormal];
+    [[cell regionIcon] setTitle:[NSString stringWithFormat:@"%@", team.name] forState:UIControlStateSelected];
     [[cell regionIcon].imageView setContentMode:UIViewContentModeScaleAspectFit];
+    
+    if (team.selected == 0) {
+        [cell regionIcon].selected = NO;
+    }
+    else {
+        [cell regionIcon].selected = YES;
+    }
     
     return cell;
     

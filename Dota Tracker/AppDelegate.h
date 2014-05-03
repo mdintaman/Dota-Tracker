@@ -23,6 +23,7 @@
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
 - (void)saveContext;
+- (void)readTeamsFromDatabase;
 - (NSURL *)applicationDocumentsDirectory;
 
 @end

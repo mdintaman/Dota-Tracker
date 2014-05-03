@@ -27,7 +27,7 @@
     
     //NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES);
     //NSString *documentsDir = [documentPaths lastObject];
-    databasePath = @"/Users/mike/Library/Application Support/iPhone Simulator/7.1/Applications/203A920C-D60B-4E90-A8B7-F4C641D6E608/Library/teamObjects.sqlite";
+    databasePath = @"/Users/mike/Library/Application Support/iPhone Simulator/7.1/Applications/E62DE0FA-77F9-4FBA-8F56-71B22422BCEB/Library/teamObjects.sqlite";
     
     [self checkAndCreateDatabase];
     
@@ -83,7 +83,7 @@
     NSLog(@"%@", [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:databaseName]);
     NSString *databasePathFromApp = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"teamObjects.sqlite\0"];
     
-    [fileManager copyItemAtPath:databasePathFromApp toPath:@"/Users/mike/Library/Application Support/iPhone Simulator/7.1/Applications/203A920C-D60B-4E90-A8B7-F4C641D6E608/Library/teamObjects.sqlite" error:nil];
+    [fileManager copyItemAtPath:databasePathFromApp toPath:@"/Users/mike/Library/Application Support/iPhone Simulator/7.1/Applications/E62DE0FA-77F9-4FBA-8F56-71B22422BCEB/Library/teamObjects.sqlite" error:nil];
     
 }
 

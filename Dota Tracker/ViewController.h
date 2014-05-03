@@ -12,6 +12,7 @@
 @interface ViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate> {
     
     IBOutlet UISegmentedControl *regionControl;
+    IBOutlet UILabel *regionHeader;
     
 }
 

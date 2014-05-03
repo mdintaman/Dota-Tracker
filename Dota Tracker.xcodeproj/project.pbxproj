@@ -104,6 +104,8 @@
 		278D446D19103015001BDA92 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D446C19103015001BDA92 /* libsqlite3.dylib */; };
 		278D44701911EE74001BDA92 /* teamObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D446F1911EE74001BDA92 /* teamObject.m */; };
 		27A15010191442A10063E1CA /* teamObjects.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27A1500F191442A10063E1CA /* teamObjects.sqlite */; };
+		27A150131914B43C0063E1CA /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A150121914B43C0063E1CA /* ScheduleViewController.m */; };
+		27A150161914EA6D0063E1CA /* teamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A150151914EA6D0063E1CA /* teamCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,6 +223,10 @@
 		278D446E1911EE74001BDA92 /* teamObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teamObject.h; sourceTree = "<group>"; };
 		278D446F1911EE74001BDA92 /* teamObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = teamObject.m; sourceTree = "<group>"; };
 		27A1500F191442A10063E1CA /* teamObjects.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = teamObjects.sqlite; sourceTree = "<group>"; };
+		27A150111914B43C0063E1CA /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		27A150121914B43C0063E1CA /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		27A150141914EA6D0063E1CA /* teamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teamCell.h; sourceTree = "<group>"; };
+		27A150151914EA6D0063E1CA /* teamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = teamCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,11 +293,15 @@
 			children = (
 				278D4428190E25AA001BDA92 /* Model.xcdatamodeld */,
 				278D040F18FDA4EF00444023 /* Main_iPhone.storyboard */,
+				27A150111914B43C0063E1CA /* ScheduleViewController.h */,
+				27A150121914B43C0063E1CA /* ScheduleViewController.m */,
 				278D041218FDA4EF00444023 /* Main_iPad.storyboard */,
 				278D040C18FDA4EF00444023 /* AppDelegate.h */,
 				278D040D18FDA4EF00444023 /* AppDelegate.m */,
 				278D42A619036CD1001BDA92 /* regionCell.h */,
 				278D42A719036CD1001BDA92 /* regionCell.m */,
+				27A150141914EA6D0063E1CA /* teamCell.h */,
+				27A150151914EA6D0063E1CA /* teamCell.m */,
 				278D446E1911EE74001BDA92 /* teamObject.h */,
 				278D446F1911EE74001BDA92 /* teamObject.m */,
 				278D041518FDA4EF00444023 /* ViewController.h */,
@@ -586,7 +596,9 @@
 				278D44701911EE74001BDA92 /* teamObject.m in Sources */,
 				278D040E18FDA4EF00444023 /* AppDelegate.m in Sources */,
 				278D442A190E25AA001BDA92 /* Model.xcdatamodeld in Sources */,
+				27A150161914EA6D0063E1CA /* teamCell.m in Sources */,
 				278D040A18FDA4EF00444023 /* main.m in Sources */,
+				27A150131914B43C0063E1CA /* ScheduleViewController.m in Sources */,
 				278D42A819036CD1001BDA92 /* regionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
