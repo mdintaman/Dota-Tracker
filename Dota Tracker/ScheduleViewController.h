@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "teamCell.h"
 
-@interface ScheduleViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+@interface ScheduleViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, teamCellDelegate>  {
+    
+    NSString *tsd;
+    
+}
 
+@property (strong, nonatomic) NSString *tsd;
 @property (weak, nonatomic) IBOutlet UICollectionView *selectedCollectionView;
+@property (weak, nonatomic) IBOutlet UICollectionView *upcomingCollectionView;
+@property (weak, nonatomic) IBOutlet UICollectionView *recentCollectionView;
 
-- (void) changeTeam:(id) sender;
 
 @end

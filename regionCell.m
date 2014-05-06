@@ -17,7 +17,11 @@
     
     NSFileManager *fileMgr=[NSFileManager defaultManager];
     
-    NSString *dbPath=@"/Users/mike/Library/Application Support/iPhone Simulator/7.1/Applications/E62DE0FA-77F9-4FBA-8F56-71B22422BCEB/Library/teamObjects.sqlite";
+    NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+    NSString *documentsDir = [documentPaths lastObject];
+    
+    
+    NSString *dbPath = [documentsDir stringByAppendingPathComponent:@"teamObjects.sqlite"];;
     
     BOOL success=[fileMgr fileExistsAtPath:dbPath];
     if(!success)
@@ -47,6 +51,7 @@
         char *error;
         if((sqlite3_exec(database, [insertStatement UTF8String], NULL, NULL, &error))==SQLITE_OK)
         {
+            
             NSLog(@"State Switched.");
         }
         else

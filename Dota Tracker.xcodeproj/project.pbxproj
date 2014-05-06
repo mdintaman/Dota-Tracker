@@ -103,9 +103,20 @@
 		278D442A190E25AA001BDA92 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 278D4428190E25AA001BDA92 /* Model.xcdatamodeld */; };
 		278D446D19103015001BDA92 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D446C19103015001BDA92 /* libsqlite3.dylib */; };
 		278D44701911EE74001BDA92 /* teamObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D446F1911EE74001BDA92 /* teamObject.m */; };
-		27A15010191442A10063E1CA /* teamObjects.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27A1500F191442A10063E1CA /* teamObjects.sqlite */; };
 		27A150131914B43C0063E1CA /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A150121914B43C0063E1CA /* ScheduleViewController.m */; };
 		27A150161914EA6D0063E1CA /* teamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A150151914EA6D0063E1CA /* teamCell.m */; };
+		27A1501919173B5B0063E1CA /* upcomingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1501819173B5B0063E1CA /* upcomingObject.m */; };
+		27A1501C191768710063E1CA /* upcomingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1501B191768710063E1CA /* upcomingCell.m */; };
+		27A1501F19177B330063E1CA /* recentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1501E19177B330063E1CA /* recentObject.m */; };
+		27A150221917803A0063E1CA /* recentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A150211917803A0063E1CA /* recentCell.m */; };
+		27A15026191823BE0063E1CA /* hiddeng.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A15023191823BE0063E1CA /* hiddeng.png */; };
+		27A15027191823BE0063E1CA /* lostg.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A15024191823BE0063E1CA /* lostg.png */; };
+		27A15028191823BE0063E1CA /* wong.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A15025191823BE0063E1CA /* wong.png */; };
+		27A1502D19183C7A0063E1CA /* showbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A1502A19183C7A0063E1CA /* showbutton.png */; };
+		27A15032191879060063E1CA /* wonbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A1502F191879060063E1CA /* wonbutton.png */; };
+		27A15033191879060063E1CA /* tiebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A15030191879060063E1CA /* tiebutton.png */; };
+		27A15034191879060063E1CA /* lostbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A15031191879060063E1CA /* lostbutton.png */; };
+		27A1503A1918A7C20063E1CA /* teamObjects.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27A150391918A7C20063E1CA /* teamObjects.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -222,11 +233,26 @@
 		278D446C19103015001BDA92 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		278D446E1911EE74001BDA92 /* teamObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teamObject.h; sourceTree = "<group>"; };
 		278D446F1911EE74001BDA92 /* teamObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = teamObject.m; sourceTree = "<group>"; };
-		27A1500F191442A10063E1CA /* teamObjects.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = teamObjects.sqlite; sourceTree = "<group>"; };
 		27A150111914B43C0063E1CA /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
 		27A150121914B43C0063E1CA /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
 		27A150141914EA6D0063E1CA /* teamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teamCell.h; sourceTree = "<group>"; };
 		27A150151914EA6D0063E1CA /* teamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = teamCell.m; sourceTree = "<group>"; };
+		27A1501719173B5B0063E1CA /* upcomingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upcomingObject.h; sourceTree = "<group>"; };
+		27A1501819173B5B0063E1CA /* upcomingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = upcomingObject.m; sourceTree = "<group>"; };
+		27A1501A191768710063E1CA /* upcomingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upcomingCell.h; sourceTree = "<group>"; };
+		27A1501B191768710063E1CA /* upcomingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = upcomingCell.m; sourceTree = "<group>"; };
+		27A1501D19177B330063E1CA /* recentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recentObject.h; sourceTree = "<group>"; };
+		27A1501E19177B330063E1CA /* recentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recentObject.m; sourceTree = "<group>"; };
+		27A150201917803A0063E1CA /* recentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recentCell.h; sourceTree = "<group>"; };
+		27A150211917803A0063E1CA /* recentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recentCell.m; sourceTree = "<group>"; };
+		27A15023191823BE0063E1CA /* hiddeng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiddeng.png; sourceTree = "<group>"; };
+		27A15024191823BE0063E1CA /* lostg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lostg.png; sourceTree = "<group>"; };
+		27A15025191823BE0063E1CA /* wong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wong.png; sourceTree = "<group>"; };
+		27A1502A19183C7A0063E1CA /* showbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showbutton.png; sourceTree = "<group>"; };
+		27A1502F191879060063E1CA /* wonbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonbutton.png; sourceTree = "<group>"; };
+		27A15030191879060063E1CA /* tiebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiebutton.png; sourceTree = "<group>"; };
+		27A15031191879060063E1CA /* lostbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lostbutton.png; sourceTree = "<group>"; };
+		27A150391918A7C20063E1CA /* teamObjects.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = teamObjects.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,7 +284,7 @@
 		278D03F118FDA4EF00444023 = {
 			isa = PBXGroup;
 			children = (
-				27A1500F191442A10063E1CA /* teamObjects.sqlite */,
+				27A150391918A7C20063E1CA /* teamObjects.sqlite */,
 				278D040318FDA4EF00444023 /* Dota Tracker */,
 				278D042518FDA4EF00444023 /* Dota TrackerTests */,
 				278D03FC18FDA4EF00444023 /* Frameworks */,
@@ -298,6 +324,14 @@
 				278D041218FDA4EF00444023 /* Main_iPad.storyboard */,
 				278D040C18FDA4EF00444023 /* AppDelegate.h */,
 				278D040D18FDA4EF00444023 /* AppDelegate.m */,
+				27A1501D19177B330063E1CA /* recentObject.h */,
+				27A1501E19177B330063E1CA /* recentObject.m */,
+				27A150201917803A0063E1CA /* recentCell.h */,
+				27A150211917803A0063E1CA /* recentCell.m */,
+				27A1501719173B5B0063E1CA /* upcomingObject.h */,
+				27A1501819173B5B0063E1CA /* upcomingObject.m */,
+				27A1501A191768710063E1CA /* upcomingCell.h */,
+				27A1501B191768710063E1CA /* upcomingCell.m */,
 				278D42A619036CD1001BDA92 /* regionCell.h */,
 				278D42A719036CD1001BDA92 /* regionCell.m */,
 				27A150141914EA6D0063E1CA /* teamCell.h */,
@@ -308,6 +342,13 @@
 				278D041618FDA4EF00444023 /* ViewController.m */,
 				278D040418FDA4EF00444023 /* Supporting Files */,
 				278D041818FDA4EF00444023 /* Images.xcassets */,
+				27A15023191823BE0063E1CA /* hiddeng.png */,
+				27A15024191823BE0063E1CA /* lostg.png */,
+				27A15025191823BE0063E1CA /* wong.png */,
+				27A1502A19183C7A0063E1CA /* showbutton.png */,
+				27A1502F191879060063E1CA /* wonbutton.png */,
+				27A15030191879060063E1CA /* tiebutton.png */,
+				27A15031191879060063E1CA /* lostbutton.png */,
 				278D426419036792001BDA92 /* Alliance.png */,
 				278D42B31908C4A7001BDA92 /* Alliancegray.png */,
 				278D42A91904E1A4001BDA92 /* Arrow.png */,
@@ -493,8 +534,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A15010191442A10063E1CA /* teamObjects.sqlite in Resources */,
+				27A1503A1918A7C20063E1CA /* teamObjects.sqlite in Resources */,
 				278D42AD1904E1A4001BDA92 /* FD.png in Resources */,
+				27A1502D19183C7A0063E1CA /* showbutton.png in Resources */,
 				278D42A319036792001BDA92 /* VG.png in Resources */,
 				278D42C11908C4A7001BDA92 /* Arrowgray.png in Resources */,
 				278D429519036792001BDA92 /* Mith.png in Resources */,
@@ -512,12 +554,16 @@
 				278D428E19036792001BDA92 /* EOT.png in Resources */,
 				278D429D19036792001BDA92 /* PR.png in Resources */,
 				278D42CB1908C4A7001BDA92 /* FDgray.png in Resources */,
+				27A15033191879060063E1CA /* tiebutton.png in Resources */,
+				27A15032191879060063E1CA /* wonbutton.png in Resources */,
 				278D041418FDA4EF00444023 /* Main_iPad.storyboard in Resources */,
 				278D42FB190BA9C7001BDA92 /* TongFugray.png in Resources */,
+				27A15027191823BE0063E1CA /* lostg.png in Resources */,
 				278D42FA190BA9C7001BDA92 /* Titangray.png in Resources */,
 				278D42C51908C4A7001BDA92 /* DKgray.png in Resources */,
 				278D42EB190BA9C7001BDA92 /* Mithgray.png in Resources */,
 				278D428B19036792001BDA92 /* EG.png in Resources */,
+				27A15028191823BE0063E1CA /* wong.png in Resources */,
 				278D429919036792001BDA92 /* Neolution.png in Resources */,
 				278D42F3190BA9C7001BDA92 /* PRgray.png in Resources */,
 				278D42EA190BA9C7001BDA92 /* Mineskigray.png in Resources */,
@@ -559,9 +605,11 @@
 				278D42F1190BA9C7001BDA92 /* NEXTkzgray.png in Resources */,
 				278D42F2190BA9C7001BDA92 /* Orangegray.png in Resources */,
 				278D428619036792001BDA92 /* C9.png in Resources */,
+				27A15034191879060063E1CA /* lostbutton.png in Resources */,
 				278D429619036792001BDA92 /* MVP.png in Resources */,
 				278D42CC1908C4A7001BDA92 /* Fnaticgray.png in Resources */,
 				278D42C91908C4A7001BDA92 /* Empiregray.png in Resources */,
+				27A15026191823BE0063E1CA /* hiddeng.png in Resources */,
 				278D42A419036792001BDA92 /* VP.png in Resources */,
 				278D42F0190BA9C7001BDA92 /* Newbeegray.png in Resources */,
 				278D42C71908C4A7001BDA92 /* EGgray.png in Resources */,
@@ -593,10 +641,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				278D041718FDA4EF00444023 /* ViewController.m in Sources */,
+				27A1501C191768710063E1CA /* upcomingCell.m in Sources */,
 				278D44701911EE74001BDA92 /* teamObject.m in Sources */,
+				27A1501F19177B330063E1CA /* recentObject.m in Sources */,
 				278D040E18FDA4EF00444023 /* AppDelegate.m in Sources */,
 				278D442A190E25AA001BDA92 /* Model.xcdatamodeld in Sources */,
 				27A150161914EA6D0063E1CA /* teamCell.m in Sources */,
+				27A1501919173B5B0063E1CA /* upcomingObject.m in Sources */,
+				27A150221917803A0063E1CA /* recentCell.m in Sources */,
 				278D040A18FDA4EF00444023 /* main.m in Sources */,
 				27A150131914B43C0063E1CA /* ScheduleViewController.m in Sources */,
 				278D42A819036CD1001BDA92 /* regionCell.m in Sources */,

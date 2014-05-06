@@ -9,10 +9,14 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "teamObject.h"
+#import "upcomingObject.h"
+#import "recentObject.h"
 
 @implementation AppDelegate
 
 @synthesize teams;
+@synthesize upcoming;
+@synthesize recent;
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
@@ -25,13 +29,15 @@
     
     
     
-    //NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES);
-    //NSString *documentsDir = [documentPaths lastObject];
-    databasePath = @"/Users/mike/Library/Application Support/iPhone Simulator/7.1/Applications/E62DE0FA-77F9-4FBA-8F56-71B22422BCEB/Library/teamObjects.sqlite";
+    NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+    NSString *documentsDir = [documentPaths lastObject];
+    databasePath = [documentsDir stringByAppendingPathComponent:databaseName];
     
     [self checkAndCreateDatabase];
     
     [self readTeamsFromDatabase];
+    
+    [self readRecentFromDatabase];
     
     
     
@@ -83,7 +89,7 @@
     NSLog(@"%@", [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:databaseName]);
     NSString *databasePathFromApp = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"teamObjects.sqlite\0"];
     
-    [fileManager copyItemAtPath:databasePathFromApp toPath:@"/Users/mike/Library/Application Support/iPhone Simulator/7.1/Applications/E62DE0FA-77F9-4FBA-8F56-71B22422BCEB/Library/teamObjects.sqlite" error:nil];
+    [fileManager copyItemAtPath:databasePathFromApp toPath:databasePath error:nil];
     
 }
 
@@ -110,6 +116,68 @@
                 teamObject *team = [[teamObject alloc] initWithName:aName imageSelected:aImageSelected imageNotSelected:aImageNotSelected selected:&aSelected region:&aRegion regionRank:&aRegionRank];
                 
                 [teams addObject:team];
+                
+            }
+        }
+        sqlite3_finalize(compiledStatement);
+    }
+    sqlite3_close(database);
+}
+
+- (void) readUpcomingFromDatabase {
+    
+    sqlite3 *database;
+    
+    upcoming = [[NSMutableArray alloc] init];
+    
+    //const char *test = [databasePath UTF8String];
+    
+    if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
+        const char *sqlStatement = "select * from Upcoming";
+        sqlite3_stmt *compiledStatement;
+        if(sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
+            while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
+                NSString *aTeam1 = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 0)];
+                NSString *aTeam2 = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 1)];
+                NSString *aLink = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 2)];
+                NSString *aTourney = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 3)];
+                NSString *aGameDate = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 4)];
+                
+                upcomingObject *game = [[upcomingObject alloc] initWithTeam1:(NSString *)aTeam1 team2:(NSString *)aTeam2 link:(NSString *)aLink tourney:(NSString *)aTourney gamedate:(NSString *)aGameDate];
+                
+                [upcoming addObject:game];
+                
+            }
+        }
+        sqlite3_finalize(compiledStatement);
+    }
+    sqlite3_close(database);
+}
+
+- (void) readRecentFromDatabase {
+    
+    sqlite3 *database;
+    
+    recent = [[NSMutableArray alloc] init];
+    
+    //const char *test = [databasePath UTF8String];
+    
+    if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
+        const char *sqlStatement = "select * from Recent";
+        sqlite3_stmt *compiledStatement;
+        if(sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
+            while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
+                NSString *aTeam1 = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 0)];
+                NSString *aTeam2 = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 1)];
+                NSInteger aTeam1s = sqlite3_column_int(compiledStatement, 2);
+                NSInteger aTeam2s = sqlite3_column_int(compiledStatement, 3);
+                NSString *aLink = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 4)];
+                NSString *aTourney = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 5)];
+                NSInteger abo = sqlite3_column_int(compiledStatement, 6);
+                
+                recentObject *game = [[recentObject alloc] initWithTeam1:aTeam1 team2:aTeam2 team1s:&aTeam1s team2s:&aTeam2s link:aLink tourney:aTourney bo:&abo];
+                
+                [recent addObject:game];
                 
             }
         }
