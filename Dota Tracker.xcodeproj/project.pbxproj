@@ -14,7 +14,6 @@
 		278D040A18FDA4EF00444023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D040918FDA4EF00444023 /* main.m */; };
 		278D040E18FDA4EF00444023 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D040D18FDA4EF00444023 /* AppDelegate.m */; };
 		278D041118FDA4EF00444023 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278D040F18FDA4EF00444023 /* Main_iPhone.storyboard */; };
-		278D041418FDA4EF00444023 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278D041218FDA4EF00444023 /* Main_iPad.storyboard */; };
 		278D041718FDA4EF00444023 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D041618FDA4EF00444023 /* ViewController.m */; };
 		278D041918FDA4EF00444023 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278D041818FDA4EF00444023 /* Images.xcassets */; };
 		278D042018FDA4EF00444023 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D041F18FDA4EF00444023 /* XCTest.framework */; };
@@ -141,7 +140,6 @@
 		278D040C18FDA4EF00444023 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		278D040D18FDA4EF00444023 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		278D041018FDA4EF00444023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		278D041318FDA4EF00444023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		278D041518FDA4EF00444023 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		278D041618FDA4EF00444023 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		278D041818FDA4EF00444023 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -321,7 +319,6 @@
 				278D040F18FDA4EF00444023 /* Main_iPhone.storyboard */,
 				27A150111914B43C0063E1CA /* ScheduleViewController.h */,
 				27A150121914B43C0063E1CA /* ScheduleViewController.m */,
-				278D041218FDA4EF00444023 /* Main_iPad.storyboard */,
 				278D040C18FDA4EF00444023 /* AppDelegate.h */,
 				278D040D18FDA4EF00444023 /* AppDelegate.m */,
 				27A1501D19177B330063E1CA /* recentObject.h */,
@@ -556,7 +553,6 @@
 				278D42CB1908C4A7001BDA92 /* FDgray.png in Resources */,
 				27A15033191879060063E1CA /* tiebutton.png in Resources */,
 				27A15032191879060063E1CA /* wonbutton.png in Resources */,
-				278D041418FDA4EF00444023 /* Main_iPad.storyboard in Resources */,
 				278D42FB190BA9C7001BDA92 /* TongFugray.png in Resources */,
 				27A15027191823BE0063E1CA /* lostg.png in Resources */,
 				278D42FA190BA9C7001BDA92 /* Titangray.png in Resources */,
@@ -690,14 +686,6 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		278D041218FDA4EF00444023 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				278D041318FDA4EF00444023 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		278D042818FDA4EF00444023 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -791,6 +779,7 @@
 				GCC_PREFIX_HEADER = "Dota Tracker/Dota Tracker-Prefix.pch";
 				INFOPLIST_FILE = "Dota Tracker/Dota Tracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -805,6 +794,7 @@
 				GCC_PREFIX_HEADER = "Dota Tracker/Dota Tracker-Prefix.pch";
 				INFOPLIST_FILE = "Dota Tracker/Dota Tracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
