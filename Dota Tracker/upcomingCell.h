@@ -13,5 +13,11 @@
 @property (weak, nonatomic) IBOutlet UIImageView *uGame;
 @property (weak, nonatomic) IBOutlet UILabel *upcomingTourney;
 @property (weak, nonatomic) IBOutlet UILabel *timeLeft;
+@property (weak, nonatomic) IBOutlet UILabel *noLogo;
+@property (weak, nonatomic) NSDate *savedDate;
+@property (weak, nonatomic) NSString *link;
+@property (weak, nonatomic) IBOutlet UIButton *linkLaunch;
+
+- (IBAction)launch:(id)sender;
 
 @end

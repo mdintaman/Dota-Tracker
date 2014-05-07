@@ -10,6 +10,7 @@
 #import "regionCell.h"
 #import "AppDelegate.h"
 #import "teamObject.h"
+#import "ScheduleViewController.h"
 
 
 @interface ViewController () {
@@ -20,6 +21,18 @@
 @end
 
 @implementation ViewController
+
+- (IBAction)done:(id)sender {
+    AppDelegate *dbDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    [dbDelegate readTeamsFromDatabase];
+    
+    NSPredicate *selectedPredicate = [NSPredicate predicateWithFormat:@"SELF.selected == 1 "];
+    NSArray *count = [dbDelegate.teams filteredArrayUsingPredicate:selectedPredicate];
+    if ([count count] > 0) {
+        [self performSegueWithIdentifier:@"done" sender:sender];
+    }
+}
 
 - (IBAction)regionSelected {
     
@@ -73,7 +86,7 @@
     NSPredicate *chinaPredicate = [NSPredicate predicateWithFormat:@"SELF.region == 1 "];
     
     arrayOfIcons = [dbDelegate.teams filteredArrayUsingPredicate:chinaPredicate];
-
+    
 }
 
 //data source and delegate

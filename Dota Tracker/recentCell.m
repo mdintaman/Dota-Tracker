@@ -90,6 +90,11 @@
     self.showButton.selected = YES;
 }
 
+- (IBAction)launch:(id)sender{
+    NSString *temp = [NSString stringWithFormat:@"http://www.gosugamers.com%@",_link];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:temp]];
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

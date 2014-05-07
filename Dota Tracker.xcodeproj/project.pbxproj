@@ -116,7 +116,7 @@
 		27A15032191879060063E1CA /* wonbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A1502F191879060063E1CA /* wonbutton.png */; };
 		27A15033191879060063E1CA /* tiebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A15030191879060063E1CA /* tiebutton.png */; };
 		27A15034191879060063E1CA /* lostbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A15031191879060063E1CA /* lostbutton.png */; };
-		27A1503A1918A7C20063E1CA /* teamObjects.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27A150391918A7C20063E1CA /* teamObjects.sqlite */; };
+		27A1503D1918E2730063E1CA /* teamObjects.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27A1503C1918E2730063E1CA /* teamObjects.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,7 +252,7 @@
 		27A1502F191879060063E1CA /* wonbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonbutton.png; sourceTree = "<group>"; };
 		27A15030191879060063E1CA /* tiebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiebutton.png; sourceTree = "<group>"; };
 		27A15031191879060063E1CA /* lostbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lostbutton.png; sourceTree = "<group>"; };
-		27A150391918A7C20063E1CA /* teamObjects.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = teamObjects.sqlite; sourceTree = "<group>"; };
+		27A1503C1918E2730063E1CA /* teamObjects.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = teamObjects.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,7 +284,7 @@
 		278D03F118FDA4EF00444023 = {
 			isa = PBXGroup;
 			children = (
-				27A150391918A7C20063E1CA /* teamObjects.sqlite */,
+				27A1503C1918E2730063E1CA /* teamObjects.sqlite */,
 				278D040318FDA4EF00444023 /* Dota Tracker */,
 				278D042518FDA4EF00444023 /* Dota TrackerTests */,
 				278D03FC18FDA4EF00444023 /* Frameworks */,
@@ -534,7 +534,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A1503A1918A7C20063E1CA /* teamObjects.sqlite in Resources */,
+				27A1503D1918E2730063E1CA /* teamObjects.sqlite in Resources */,
 				278D42AD1904E1A4001BDA92 /* FD.png in Resources */,
 				27A1502D19183C7A0063E1CA /* showbutton.png in Resources */,
 				278D42A319036792001BDA92 /* VG.png in Resources */,

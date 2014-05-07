@@ -19,6 +19,11 @@
     return self;
 }
 
+- (IBAction)launch:(id)sender{
+    NSString *temp = [NSString stringWithFormat:@"http://www.gosugamers.com%@",_link];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:temp]];
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

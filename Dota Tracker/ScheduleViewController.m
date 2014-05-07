@@ -14,6 +14,7 @@
 #import "upcomingCell.h"
 #import "recentObject.h"
 #import "recentCell.h"
+#import "ViewController.h"
 
 @interface ScheduleViewController () {
     NSArray *selectedTeams;
@@ -64,8 +65,10 @@
     
     recentGamesAll = dbDelegate.recent;
     
-    currentTeam = [selectedTeams[0] name];
-    
+    if ([selectedTeams count] > 0){
+        currentTeam = [selectedTeams[0] name];
+    }
+  
     // Do any additional setup after loading the view.
 }
 
@@ -134,16 +137,39 @@
         
         upcomingCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CellIdentifier forIndexPath:indexPath];
         
+        NSString *gameString = [NSDateFormatter localizedStringFromDate:gg.savedDate dateStyle:NSDateFormatterShortStyle timeStyle:NSDateFormatterShortStyle];
+        
         if ([[gg team1] isEqualToString:currentTeam]){
-            [[cell uGame] setImage:[UIImage imageNamed:(@"%@.png", gg.team2)]];
-            [[cell uGame] setContentMode:UIViewContentModeScaleAspectFit];
+            UIImage *temp = [UIImage imageNamed:[NSString stringWithFormat:@"%@.png", gg.team2]];
+            if (!temp) {
+                [[cell noLogo] setText:gg.team2];
+                [[cell noLogo] setHidden:NO];
+                [[cell uGame] setHidden:YES];
+            }
+            else {
+                [[cell uGame] setImage:temp];
+                [[cell uGame] setContentMode:UIViewContentModeScaleAspectFit];
+                [[cell uGame] setHidden:NO];
+                [[cell noLogo] setHidden:YES];
+            }
         }
         else {
-            [[cell uGame] setImage:[UIImage imageNamed:(@"%@.png", gg.team1)]];
-            [[cell uGame] setContentMode:UIViewContentModeScaleAspectFit];
+            UIImage *temp = [UIImage imageNamed:[NSString stringWithFormat:@"%@.png", gg.team1]];
+            if (!temp) {
+                [[cell noLogo] setText:gg.team1];
+                [[cell noLogo] setHidden:NO];
+                [[cell uGame] setHidden:YES];
+            }
+            else {
+                [[cell uGame] setImage:temp];
+                [[cell uGame] setContentMode:UIViewContentModeScaleAspectFit];
+                [[cell uGame] setHidden:NO];
+                [[cell noLogo] setHidden:YES];
+            }
         }
         
-        [[cell timeLeft] setText:gg.gamedate];
+        cell.link = gg.link;
+        [[cell timeLeft] setText:gameString];
         [[cell upcomingTourney] setText:gg.tourney];
         
         return cell;
@@ -157,8 +183,18 @@
         recentCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CellIdentifier forIndexPath:indexPath];
         
         if ([[gg team1] isEqualToString: currentTeam]){
-            [[cell rGame] setImage:[UIImage imageNamed:(@"%@.png", gg.team2)]];
-            [[cell rGame] setContentMode:UIViewContentModeScaleAspectFit];
+            UIImage *temp = [UIImage imageNamed:[NSString stringWithFormat:@"%@.png", gg.team2]];
+            if (!temp) {
+                [[cell noLogo] setText:gg.team2];
+                [[cell noLogo] setHidden:NO];
+                [[cell rGame] setHidden:YES];
+            }
+            else {
+                [[cell rGame] setImage:temp];
+                [[cell rGame] setContentMode:UIViewContentModeScaleAspectFit];
+                [[cell rGame] setHidden:NO];
+                [[cell noLogo] setHidden:YES];
+            }
             cell.myscore = gg.team1s;
             cell.theirscore = gg.team2s;
             if (cell.myscore > cell.theirscore) {
@@ -173,8 +209,18 @@
             NSLog(@"ggteam 1 = %@ crrt = %@ ggteam 2 %@", gg.team1, currentTeam, gg.team2);
         }
         else {
-            [[cell rGame] setImage:[UIImage imageNamed:(@"%@.png", gg.team1)]];
-            [[cell rGame] setContentMode:UIViewContentModeScaleAspectFit];
+            UIImage *temp = [UIImage imageNamed:[NSString stringWithFormat:@"%@.png", gg.team1]];
+            if (!temp) {
+                [[cell noLogo] setText:gg.team1];
+                [[cell noLogo] setHidden:NO];
+                [[cell rGame] setHidden:YES];
+            }
+            else {
+                [[cell rGame] setImage:temp];
+                [[cell rGame] setContentMode:UIViewContentModeScaleAspectFit];
+                [[cell rGame] setHidden:NO];
+                [[cell noLogo] setHidden:YES];
+            }
             cell.myscore = gg.team2s;
             cell.theirscore = gg.team1s;
             if (cell.myscore > cell.theirscore) {
@@ -226,6 +272,7 @@
         
         [[cell showButton] setImage:[UIImage imageNamed:@"showbutton.png"] forState:UIControlStateNormal];
         [[cell showButton].imageView setContentMode:UIViewContentModeScaleAspectFit];
+        cell.link = gg.link;
         [[cell recentTourney] setText:gg.tourney];
         
         return cell;

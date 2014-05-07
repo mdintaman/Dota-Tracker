@@ -9,14 +9,15 @@
 #import "upcomingObject.h"
 
 @implementation upcomingObject
-@synthesize team1, team2, link, tourney, gamedate;
+@synthesize team1, team2, link, tourney, gamedate, savedDate;
 
--(id)initWithTeam1:(NSString *)t1 team2:(NSString *)t2 link:(NSString *)l tourney:(NSString *)t gamedate:(NSString *)gd {
+-(id)initWithTeam1:(NSString *)t1 team2:(NSString *)t2 link:(NSString *)l tourney:(NSString *)t gamedate:(NSString *)gd savedDate:(NSDate *)sd{
     self.team1 = t1;
     self.team2 = t2;
     self.link = l;
     self.tourney = t;
     self.gamedate = gd;
+    self.savedDate = sd;
 
     return self;
 }

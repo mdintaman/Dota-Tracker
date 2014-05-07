@@ -11,6 +11,7 @@
 #import "teamObject.h"
 #import "upcomingObject.h"
 #import "recentObject.h"
+#import "ScheduleViewController.h"
 
 @implementation AppDelegate
 
@@ -24,6 +25,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    
     
     databaseName = @"teamObjects.sqlite";
     
@@ -39,8 +42,16 @@
     
     [self readRecentFromDatabase];
     
+    NSPredicate *selectedPredicate = [NSPredicate predicateWithFormat:@"SELF.selected == 1 "];
     
+    NSArray *selected = [teams filteredArrayUsingPredicate:selectedPredicate];
     
+    if ([selected count] == 0) {
+        UIStoryboard *mainstoryboard = [UIStoryboard storyboardWithName:@"Main_iPhone"          bundle:nil];
+        ViewController* vc = [mainstoryboard      instantiateViewControllerWithIdentifier:@"ViewController"];
+        [self.window makeKeyAndVisible];
+        [self.window.rootViewController presentViewController:vc animated:YES completion:NULL];
+    }
     
     return YES;
 }
@@ -143,7 +154,80 @@
                 NSString *aTourney = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 3)];
                 NSString *aGameDate = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 4)];
                 
-                upcomingObject *game = [[upcomingObject alloc] initWithTeam1:(NSString *)aTeam1 team2:(NSString *)aTeam2 link:(NSString *)aLink tourney:(NSString *)aTourney gamedate:(NSString *)aGameDate];
+                NSInteger weeks;
+                NSInteger days;
+                NSInteger hours;
+                NSInteger minutes;
+                    
+                    if ([aGameDate rangeOfString:@"w"].location != NSNotFound) {
+                        NSArray *weekSplit = [aGameDate componentsSeparatedByString:@"w"];
+                        weeks = [[weekSplit objectAtIndex:0] integerValue];
+                        if ([weekSplit[1] rangeOfString:@"d"].location != NSNotFound) {
+                            NSArray *daySplit = [weekSplit[1] componentsSeparatedByString:@"d"];
+                            days = [[daySplit objectAtIndex:0] integerValue];
+                            hours = 0;
+                            minutes = 0;
+                        }
+                        else if ([weekSplit[1] rangeOfString:@"h"].location != NSNotFound) {
+                            NSArray *hourSplit = [weekSplit[1] componentsSeparatedByString:@"h"];
+                            hours = [[hourSplit objectAtIndex:0] integerValue];
+                            days = 0;
+                            minutes = 0;
+                        }
+                        else {
+                            NSArray *minuteSplit = [weekSplit[1] componentsSeparatedByString:@"m"];
+                            minutes = [[minuteSplit objectAtIndex:0] integerValue];
+                            days = 0;
+                            hours = 0;
+                        }
+                    }
+                    else if ([aGameDate rangeOfString:@"d"].location != NSNotFound) {
+                        NSArray *daySplit = [aGameDate componentsSeparatedByString:@"d"];
+                        days = [[daySplit objectAtIndex:0] integerValue];
+                        if ([daySplit[1] rangeOfString:@"h"].location != NSNotFound) {
+                            NSArray *hourSplit = [daySplit[1] componentsSeparatedByString:@"h"];
+                            hours = [[hourSplit objectAtIndex:0] integerValue];
+                            weeks = 0;
+                            minutes = 0;
+                        }
+                        else {
+                            NSArray *minuteSplit = [daySplit[1] componentsSeparatedByString:@"m"];
+                            minutes = [[minuteSplit objectAtIndex:0] integerValue];
+                            weeks = 0;
+                            hours = 0;
+                        }
+                    }
+                    else if ([aGameDate rangeOfString:@"h"].location != NSNotFound) {
+                        NSArray *hourSplit = [aGameDate componentsSeparatedByString:@"h"];
+                        hours = [[hourSplit objectAtIndex:0] integerValue];
+                        if ([hourSplit[1] rangeOfString:@"m"].location != NSNotFound) {
+                            NSArray *minuteSplit = [hourSplit[1] componentsSeparatedByString:@"m"];
+                            minutes = [[minuteSplit objectAtIndex:0] integerValue];
+                            weeks = 0;
+                            days = 0;
+                        }
+                    }
+                    else {
+                        NSArray *minuteSplit = [aGameDate componentsSeparatedByString:@"m"];
+                        minutes = [[minuteSplit objectAtIndex:0] integerValue];
+                        weeks = 0;
+                        days = 0;
+                        hours = 0;
+                    }
+                    
+                    NSDateComponents *offset = [[NSDateComponents alloc] init];
+                    [offset setWeek:weeks];
+                    [offset setDay:days];
+                    [offset setHour:hours];
+                    [offset setMinute:minutes];
+                    
+                    NSDate *now = [NSDate date];
+                    
+                    NSDate *gameDate = [[NSCalendar currentCalendar] dateByAddingComponents:offset toDate:now options:0];
+                
+                NSDate *aDate = gameDate;
+                
+                upcomingObject *game = [[upcomingObject alloc] initWithTeam1:(NSString *)aTeam1 team2:(NSString *)aTeam2 link:(NSString *)aLink tourney:(NSString *)aTourney gamedate:(NSString *)aGameDate savedDate:(NSDate *)aDate];
                 
                 [upcoming addObject:game];
                 

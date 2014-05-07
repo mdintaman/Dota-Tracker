@@ -24,7 +24,12 @@
 @property (nonatomic) NSInteger myscore;
 @property (nonatomic) NSInteger theirscore;
 @property (nonatomic) NSInteger shown;
+@property (weak, nonatomic) IBOutlet UILabel *noLogo;
+@property (weak, nonatomic) NSString *link;
+@property (weak, nonatomic) IBOutlet UIButton *linkLaunch;
 
+
+-(IBAction)launch:(id)sender;
 -(IBAction)showButton:(id)sender;
 
 @end

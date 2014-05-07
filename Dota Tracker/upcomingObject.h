@@ -16,6 +16,7 @@ NSString *team2;
 NSString *link;
 NSString *tourney;
 NSString *gamedate;
+NSDate *savedDate;
 }
 
 @property (nonatomic, retain) NSString *team1;
@@ -23,8 +24,9 @@ NSString *gamedate;
 @property (nonatomic, retain) NSString *link;
 @property (nonatomic, retain) NSString *tourney;
 @property (nonatomic, retain) NSString *gamedate;
+@property (nonatomic, retain) NSDate *savedDate;
 
--(id)initWithTeam1:(NSString *)t1 team2:(NSString *)t2 link:(NSString *)l tourney:(NSString *)t gamedate:(NSString *)gd;
+-(id)initWithTeam1:(NSString *)t1 team2:(NSString *)t2 link:(NSString *)l tourney:(NSString *)t gamedate:(NSString *)gd savedDate:(NSDate *)sd;
 
 
 

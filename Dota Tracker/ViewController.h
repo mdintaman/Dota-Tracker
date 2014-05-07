@@ -21,6 +21,6 @@
 @property (nonatomic) sqlite3 *contactDB;
 
 - (IBAction)regionSelected;
-
+- (IBAction)done:(id)sender;
 
 @end
