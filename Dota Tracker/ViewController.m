@@ -16,7 +16,6 @@
 @interface ViewController () {
     NSArray *arrayOfIcons;
 }
-@property (nonatomic, strong)NSManagedObjectContext *managedObjectContext;
 
 @end
 
@@ -68,10 +67,6 @@
 
     [self.regionCollectionView reloadData];
     
-}
-
--(NSManagedObjectContext*)managedObjectContext {
-    return [(AppDelegate*)[[UIApplication sharedApplication]delegate]managedObjectContext];
 }
 
 - (void)viewDidLoad

@@ -22,11 +22,7 @@
 @property (nonatomic, retain) NSMutableArray *teams;
 @property (nonatomic, retain) NSMutableArray *upcoming;
 @property (nonatomic, retain) NSMutableArray *recent;
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
-- (void)saveContext;
 - (void)readTeamsFromDatabase;
 - (void)readUpcomingFromDatabase;
 - (void)readRecentFromDatabase;

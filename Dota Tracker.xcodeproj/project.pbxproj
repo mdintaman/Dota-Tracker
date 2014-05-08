@@ -99,7 +99,6 @@
 		278D42FD190BA9C7001BDA92 /* VPgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42E4190BA9C7001BDA92 /* VPgray.png */; };
 		278D42FE190BA9C7001BDA92 /* Zephyrgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D42E5190BA9C7001BDA92 /* Zephyrgray.png */; };
 		278D4303190CCC9C001BDA92 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D4302190CCC9C001BDA92 /* CoreData.framework */; };
-		278D442A190E25AA001BDA92 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 278D4428190E25AA001BDA92 /* Model.xcdatamodeld */; };
 		278D446D19103015001BDA92 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D446C19103015001BDA92 /* libsqlite3.dylib */; };
 		278D44701911EE74001BDA92 /* teamObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D446F1911EE74001BDA92 /* teamObject.m */; };
 		27A150131914B43C0063E1CA /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A150121914B43C0063E1CA /* ScheduleViewController.m */; };
@@ -227,7 +226,6 @@
 		278D42E4190BA9C7001BDA92 /* VPgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VPgray.png; sourceTree = "<group>"; };
 		278D42E5190BA9C7001BDA92 /* Zephyrgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zephyrgray.png; sourceTree = "<group>"; };
 		278D4302190CCC9C001BDA92 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		278D4429190E25AA001BDA92 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		278D446C19103015001BDA92 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		278D446E1911EE74001BDA92 /* teamObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teamObject.h; sourceTree = "<group>"; };
 		278D446F1911EE74001BDA92 /* teamObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = teamObject.m; sourceTree = "<group>"; };
@@ -315,7 +313,6 @@
 		278D040318FDA4EF00444023 /* Dota Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				278D4428190E25AA001BDA92 /* Model.xcdatamodeld */,
 				278D040F18FDA4EF00444023 /* Main_iPhone.storyboard */,
 				27A150111914B43C0063E1CA /* ScheduleViewController.h */,
 				27A150121914B43C0063E1CA /* ScheduleViewController.m */,
@@ -641,7 +638,6 @@
 				278D44701911EE74001BDA92 /* teamObject.m in Sources */,
 				27A1501F19177B330063E1CA /* recentObject.m in Sources */,
 				278D040E18FDA4EF00444023 /* AppDelegate.m in Sources */,
-				278D442A190E25AA001BDA92 /* Model.xcdatamodeld in Sources */,
 				27A150161914EA6D0063E1CA /* teamCell.m in Sources */,
 				27A1501919173B5B0063E1CA /* upcomingObject.m in Sources */,
 				27A150221917803A0063E1CA /* recentCell.m in Sources */,
@@ -872,19 +868,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		278D4428190E25AA001BDA92 /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				278D4429190E25AA001BDA92 /* Model.xcdatamodel */,
-			);
-			currentVersion = 278D4429190E25AA001BDA92 /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 278D03F218FDA4EF00444023 /* Project object */;
 }

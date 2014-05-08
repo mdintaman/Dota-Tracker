@@ -9,11 +9,9 @@
 #import <UIKit/UIKit.h>
 #include "teamCell.h"
 
-@interface ScheduleViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, teamCellDelegate>  {
+@interface ScheduleViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, teamCellDelegate>
     
-}
 
-@property (strong, nonatomic) NSString *tsd;
 @property (weak, nonatomic) IBOutlet UICollectionView *selectedCollectionView;
 @property (weak, nonatomic) IBOutlet UICollectionView *upcomingCollectionView;
 @property (weak, nonatomic) IBOutlet UICollectionView *recentCollectionView;
