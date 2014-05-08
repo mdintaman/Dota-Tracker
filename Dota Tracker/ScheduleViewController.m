@@ -29,8 +29,6 @@
 
 @implementation ScheduleViewController
 
-@synthesize tsd;
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

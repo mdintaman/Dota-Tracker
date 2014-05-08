@@ -11,8 +11,6 @@
 
 @interface ScheduleViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, teamCellDelegate>  {
     
-    NSString *tsd;
-    
 }
 
 @property (strong, nonatomic) NSString *tsd;
